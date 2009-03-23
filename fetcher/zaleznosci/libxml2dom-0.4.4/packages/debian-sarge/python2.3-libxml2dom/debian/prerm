@@ -1,0 +1,26 @@
+#! /bin/sh 
+# prerm script for libxml2dom
+
+set -e
+
+PACKAGE=python2.3-libxml2dom
+VERSION=2.3
+LIB="/usr/lib/python$VERSION"
+DIRLIST="$LIB/site-packages/libxml2dom"
+
+case "$1" in
+    remove|upgrade|failed-upgrade)
+        for i in $DIRLIST ; do
+            find $i -name '*.py[co]' -exec rm \{\} \;
+        done
+    ;;
+
+    *)
+        echo "prerm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+
+
+exit 0

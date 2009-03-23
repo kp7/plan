@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>libxml2dom.xmpp.Session</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css"></link>
+</head>
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="libxml2dom-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <font size="-1"><b class="breadcrumbs">
+        <a href="libxml2dom-module.html">Package&nbsp;libxml2dom</a> ::
+        <a href="libxml2dom.xmpp-module.html">Module&nbsp;xmpp</a> ::
+        Class&nbsp;Session
+      </b></font></br>
+    </td>
+    <td><table cellpadding="0" cellspacing="0">
+      <tr><td align="right"><font size="-2">[<a href="../private/libxml2dom.xmpp.Session-class.html">show&nbsp;private</a>&nbsp;|&nbsp;hide&nbsp;private]</font></td></tr>
+      <tr><td align="right"><font size="-2">[<a href="frames.html"target="_top">frames</a>&nbsp;|&nbsp;<a href="libxml2dom.xmpp.Session-class.html" target="_top">no&nbsp;frames</a>]</font></td></tr>
+    </table></td>
+</tr></table>
+
+<!-- =========== START OF CLASS DESCRIPTION =========== -->
+<h2 class="class">Class Session</h2>
+
+<hr/>
+
+<pre class="literalblock">
+An XMPP session.
+</pre>
+<hr/>
+
+
+<!-- =========== START OF METHOD SUMMARY =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Method Summary</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.xmpp.Session-class.html#__init__" class="summary-sig-name"><code>__init__</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>address</span>,
+          <span class=summary-sig-arg>timeout</span>,
+          <span class=summary-sig-arg>bufsize</span>,
+          <span class=summary-sig-arg>encoding</span>)</span></code>
+<br />
+Initialise an XMPP session using the given 'address': a tuple of the
+form (hostname, port).</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="connect"></a><span class="summary-sig"><span class="summary-sig-name">connect</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>host</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="createAuth"></a><span class="summary-sig"><span class="summary-sig-name">createAuth</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="createIq"></a><span class="summary-sig"><span class="summary-sig-name">createIq</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="createMessage"></a><span class="summary-sig"><span class="summary-sig-name">createMessage</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="createPresence"></a><span class="summary-sig"><span class="summary-sig-name">createPresence</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="createStanza"></a><span class="summary-sig"><span class="summary-sig-name">createStanza</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>namespaceURI</span>,
+          <span class=summary-sig-arg>localName</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.xmpp.Session-class.html#read" class="summary-sig-name"><code>read</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+Read as much as possible from the server.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.xmpp.Session-class.html#receive" class="summary-sig-name"><code>receive</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>timeout</span>)</span></code>
+<br />
+Wait for an incoming stanza, or as long as 'timeout' (in milliseconds),
+or forever if 'timeout' is omitted or set to None, returning either a
+stanza document (fragment) or None if nothing was received.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.xmpp.Session-class.html#send" class="summary-sig-name"><code>send</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>stanza</span>)</span></code>
+<br />
+Send the 'stanza' to the server, returning a response stanza if an
+immediate response was provided, or None otherwise.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.xmpp.Session-class.html#write" class="summary-sig-name"><code>write</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>s</span>)</span></code>
+<br />
+Write the plain string 's' to the server.</td></tr>
+</table><br />
+
+
+<!-- =========== START OF CLASS VARIABLE SUMMARY =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Class Variable Summary</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>str</code></font></td>
+<td><b><a href="libxml2dom.xmpp.Session-class.html#connect_str"><code>connect_str</code></a></b> = <span title="'&lt;?xml version=&quot;1.0&quot;?&gt;\n&lt;stream:stream to=\'%s\' xmlns=\'jabber:client\' xmlns:stream=\'http://etherx.jabber.org/streams\' version=\'1.0\'&gt;'"><code><span class="variable-quote">'</span>&lt;?xml&nbsp;version=&quot;1.0&quot;?&gt;\n&lt;stream:stream&nbsp;to=<span class="variable-ellipsis">...</span></code>
+</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>str</code></font></td>
+<td><b><a href="libxml2dom.xmpp.Session-class.html#disconnect_str"><code>disconnect_str</code></a></b> = <span title="'&lt;/stream:stream&gt;'"><code><span class="variable-quote">'</span>&lt;/stream:stream&gt;<span class="variable-quote">'</span>                      </code>
+</span></td></tr>
+</table><br />
+
+
+<!-- =========== START OF METHOD DETAILS =========== -->
+<table class="details" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="details">
+  <th colspan="2">Method Details</th></tr>
+</table>
+
+<a name="__init__"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">__init__</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>address</span>,
+          <span class=sig-arg>timeout</span>=<span class=sig-default>500</span>,
+          <span class=sig-arg>bufsize</span>=<span class=sig-default>1024</span>,
+          <span class=sig-arg>encoding</span>=<span class=sig-default>'utf-8'</span>)</span>
+    <br /><i>(Constructor)</i>
+  </h3>
+<pre class="literalblock">
+Initialise an XMPP session using the given 'address': a tuple of the
+form (hostname, port). The optional 'timeout' (in milliseconds) is used
+for polling the connection for new data, and the optional 'encoding'
+specifies the character encoding employed in the communications.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="read"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">read</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+<pre class="literalblock">
+Read as much as possible from the server.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="receive"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">receive</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>timeout</span>=<span class=sig-default>None</span>)</span>
+  </h3>
+<pre class="literalblock">
+Wait for an incoming stanza, or as long as 'timeout' (in milliseconds),
+or forever if 'timeout' is omitted or set to None, returning either a
+stanza document (fragment) or None if nothing was received.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="send"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">send</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>stanza</span>)</span>
+  </h3>
+<pre class="literalblock">
+Send the 'stanza' to the server, returning a response stanza if an
+immediate response was provided, or None otherwise.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="write"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">write</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>s</span>)</span>
+  </h3>
+<pre class="literalblock">
+Write the plain string 's' to the server.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+<br />
+
+
+<!-- =========== START OF CLASS VARIABLE DETAILS =========== -->
+<table class="details" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="details">
+  <th colspan="2">Class Variable Details</th></tr>
+</table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="connect_str"></a>
+<h3>connect_str</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>str</code>
+
+      </dd>
+<span title="'&lt;?xml version=&quot;1.0&quot;?&gt;\n&lt;stream:stream to=\'%s\' xmlns=\'jabber:client\' xmlns:stream=\'http://etherx.jabber.org/streams\' version=\'1.0\'&gt;'">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+<span class="variable-quote">'''</span>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;stream:stream to=\'%s\' xmlns=\'jabber:client\' xmlns:stream=\'http:/<span class="variable-linewrap">\</span>
+/etherx.jabber.org/streams\' version=\'1.0\'&gt;<span class="variable-quote">'''</span>                       </pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="disconnect_str"></a>
+<h3>disconnect_str</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>str</code>
+
+      </dd>
+<span title="'&lt;/stream:stream&gt;'">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+<span class="variable-quote">'</span>&lt;/stream:stream&gt;<span class="variable-quote">'</span>                                                     </pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<br />
+
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="libxml2dom-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="left"><font size="-2">Generated by Epydoc 2.1 on Tue Sep 18 23:37:02 2007</font></td>
+    <td align="right"><a href="http://epydoc.sourceforge.net"
+                      ><font size="-2">http://epydoc.sf.net</font></a></td>
+  </tr>
+</table>
+</body>
+</html>

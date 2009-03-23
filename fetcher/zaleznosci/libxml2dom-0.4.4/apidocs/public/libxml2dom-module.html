@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>libxml2dom</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css"></link>
+</head>
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th bgcolor="#70b0f0" class="navselect">&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <font size="-1"><b class="breadcrumbs">
+        Package&nbsp;libxml2dom
+      </b></font></br>
+    </td>
+    <td><table cellpadding="0" cellspacing="0">
+      <tr><td align="right"><font size="-2">[<a href="../private/libxml2dom-module.html">show&nbsp;private</a>&nbsp;|&nbsp;hide&nbsp;private]</font></td></tr>
+      <tr><td align="right"><font size="-2">[<a href="frames.html"target="_top">frames</a>&nbsp;|&nbsp;<a href="libxml2dom-module.html" target="_top">no&nbsp;frames</a>]</font></td></tr>
+    </table></td>
+</tr></table>
+
+<!-- =========== START OF PACKAGE DESCRIPTION =========== -->
+<h2 class="package">Package libxml2dom</h2>
+
+<pre class="literalblock">
+DOM wrapper around libxml2, specifically the libxml2mod Python extension module.
+
+Copyright (C) 2003, 2004, 2005, 2006, 2007 Paul Boddie &lt;paul&#64;boddie.org.uk&gt;
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU Lesser General Public License as published by the Free
+Software Foundation; either version 3 of the License, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
+details.
+
+You should have received a copy of the GNU Lesser General Public License along
+with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+</pre>
+<hr/>
+
+<!-- =========== START OF SUBMODULES =========== -->
+<table class="details" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="details">
+  <th colspan="2">Submodules</th></tr>
+  <tr><td><ul>
+<li> <b><a href="libxml2dom.events-module.html"><code>events</code></a></b>: <i>DOM Level 3 Events support, with SVG Tiny 1.2 implementation additions.</i>
+<li> <b><a href="libxml2dom.macrolib-module.html"><code>macrolib</code></a></b>: <i>DOM macro library for libxml2.</i>
+  <ul>
+    <li> <b><a href="libxml2dom.macrolib.macrolib-module.html"><code>macrolib</code></a></b>: <i>DOM macros for virtual libxml2mod node methods and properties.</i>
+  </ul>
+<li> <b><a href="libxml2dom.svg-module.html"><code>svg</code></a></b>: <i>SVG-specific document support.</i>
+<li> <b><a href="libxml2dom.xmpp-module.html"><code>xmpp</code></a></b>: <i>XMPP support using libxml2dom to capture stanzas as documents.</i>
+  </ul></td></tr>
+</table><br />
+
+
+<!-- =========== START OF CLASSES =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Classes</th></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.Attribute-class.html"><code>Attribute</code></a></b></td>
+  <td>A class providing attribute access.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.Document-class.html"><code>Document</code></a></b></td>
+  <td>A generic document class.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.DocumentType-class.html"><code>DocumentType</code></a></b></td>
+  <td>A class providing a container for document type information.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.Implementation-class.html"><code>Implementation</code></a></b></td>
+  <td>Contains an abstraction over the DOM implementation.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.NamedNodeMap-class.html"><code>NamedNodeMap</code></a></b></td>
+  <td>A wrapper around Node objects providing DOM and dictionary convenience
+methods.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.NamedNodeMapIterator-class.html"><code>NamedNodeMapIterator</code></a></b></td>
+  <td>An iterator over a NamedNodeMap.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.Node-class.html"><code>Node</code></a></b></td>
+  <td>A DOM-style wrapper around libxml2mod objects.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.NodeList-class.html"><code>NodeList</code></a></b></td>
+  <td>A wrapper around node lists.</td></tr>
+</table><br />
+
+
+<!-- =========== START OF FUNCTION SUMMARY =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Function Summary</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom-module.html#adoptNodes" class="summary-sig-name"><code>adoptNodes</code></a>(<span class=summary-sig-arg>nodes</span>,
+          <span class=summary-sig-arg>impl</span>)</span></code>
+<br />
+A special utility method which adopts the given low-level 'nodes' and which
+returns a list of high-level equivalents.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="createDocument"></a><span class="summary-sig"><span class="summary-sig-name">createDocument</span>(<span class=summary-sig-arg>namespaceURI</span>,
+          <span class=summary-sig-arg>localName</span>,
+          <span class=summary-sig-arg>doctype</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="createDocumentType"></a><span class="summary-sig"><span class="summary-sig-name">createDocumentType</span>(<span class=summary-sig-arg>localName</span>,
+          <span class=summary-sig-arg>publicId</span>,
+          <span class=summary-sig-arg>systemId</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom-module.html#getDOMImplementation" class="summary-sig-name"><code>getDOMImplementation</code></a>()</span></code>
+<br />
+Return the default DOM implementation.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom-module.html#parse" class="summary-sig-name"><code>parse</code></a>(<span class=summary-sig-arg>stream_or_string</span>,
+          <span class=summary-sig-arg>html</span>,
+          <span class=summary-sig-arg>htmlencoding</span>,
+          <span class=summary-sig-arg>unfinished</span>,
+          <span class=summary-sig-arg>impl</span>)</span></code>
+<br />
+Parse the given 'stream_or_string', where the supplied object can either be
+a stream (such as a file or stream object), or a string (containing the
+filename of a document).</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom-module.html#parseFile" class="summary-sig-name"><code>parseFile</code></a>(<span class=summary-sig-arg>filename</span>,
+          <span class=summary-sig-arg>html</span>,
+          <span class=summary-sig-arg>htmlencoding</span>,
+          <span class=summary-sig-arg>unfinished</span>,
+          <span class=summary-sig-arg>impl</span>)</span></code>
+<br />
+Parse the file having the given 'filename'.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom-module.html#parseString" class="summary-sig-name"><code>parseString</code></a>(<span class=summary-sig-arg>s</span>,
+          <span class=summary-sig-arg>html</span>,
+          <span class=summary-sig-arg>htmlencoding</span>,
+          <span class=summary-sig-arg>unfinished</span>,
+          <span class=summary-sig-arg>impl</span>)</span></code>
+<br />
+Parse the content of the given string 's'.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom-module.html#parseURI" class="summary-sig-name"><code>parseURI</code></a>(<span class=summary-sig-arg>uri</span>,
+          <span class=summary-sig-arg>html</span>,
+          <span class=summary-sig-arg>htmlencoding</span>,
+          <span class=summary-sig-arg>unfinished</span>,
+          <span class=summary-sig-arg>impl</span>)</span></code>
+<br />
+Parse the content found at the given 'uri'.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom-module.html#toFile" class="summary-sig-name"><code>toFile</code></a>(<span class=summary-sig-arg>node</span>,
+          <span class=summary-sig-arg>filename</span>,
+          <span class=summary-sig-arg>encoding</span>,
+          <span class=summary-sig-arg>prettyprint</span>)</span></code>
+<br />
+Write the serialised form of the given 'node' and its children to a file
+having the given 'filename'.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom-module.html#toStream" class="summary-sig-name"><code>toStream</code></a>(<span class=summary-sig-arg>node</span>,
+          <span class=summary-sig-arg>stream</span>,
+          <span class=summary-sig-arg>encoding</span>,
+          <span class=summary-sig-arg>prettyprint</span>)</span></code>
+<br />
+Write the serialised form of the given 'node' and its children to the given
+'stream'.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom-module.html#toString" class="summary-sig-name"><code>toString</code></a>(<span class=summary-sig-arg>node</span>,
+          <span class=summary-sig-arg>encoding</span>,
+          <span class=summary-sig-arg>prettyprint</span>)</span></code>
+<br />
+Return a string containing the serialised form of the given 'node' and its
+children.</td></tr>
+</table><br />
+
+
+<!-- =========== START OF FUNCTION DETAILS =========== -->
+<table class="details" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="details">
+  <th colspan="2">Function Details</th></tr>
+</table>
+
+<a name="adoptNodes"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">adoptNodes</span>(<span class=sig-arg>nodes</span>,
+          <span class=sig-arg>impl</span>=<span class=sig-default>None</span>)</span>
+  </h3>
+<pre class="literalblock">
+A special utility method which adopts the given low-level 'nodes' and which
+returns a list of high-level equivalents. This is currently experimental and
+should not be casually used.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="getDOMImplementation"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">getDOMImplementation</span>()</span>
+  </h3>
+<pre class="literalblock">
+Return the default DOM implementation.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="parse"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">parse</span>(<span class=sig-arg>stream_or_string</span>,
+          <span class=sig-arg>html</span>=<span class=sig-default>0</span>,
+          <span class=sig-arg>htmlencoding</span>=<span class=sig-default>None</span>,
+          <span class=sig-arg>unfinished</span>=<span class=sig-default>0</span>,
+          <span class=sig-arg>impl</span>=<span class=sig-default>None</span>)</span>
+  </h3>
+<pre class="literalblock">
+Parse the given 'stream_or_string', where the supplied object can either be
+a stream (such as a file or stream object), or a string (containing the
+filename of a document). The optional parameters described below should be
+provided as keyword arguments.
+
+If the optional 'html' parameter is set to a true value, the content to be
+parsed will be treated as being HTML rather than XML. If the optional
+'htmlencoding' is specified, HTML parsing will be performed with the
+document encoding assumed to that specified.
+
+If the optional 'unfinished' parameter is set to a true value, unfinished
+documents will be parsed, even though such documents may be missing content
+such as closing tags.
+
+A document object is returned by this function.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="parseFile"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">parseFile</span>(<span class=sig-arg>filename</span>,
+          <span class=sig-arg>html</span>=<span class=sig-default>0</span>,
+          <span class=sig-arg>htmlencoding</span>=<span class=sig-default>None</span>,
+          <span class=sig-arg>unfinished</span>=<span class=sig-default>0</span>,
+          <span class=sig-arg>impl</span>=<span class=sig-default>None</span>)</span>
+  </h3>
+<pre class="literalblock">
+Parse the file having the given 'filename'. The optional parameters
+described below should be provided as keyword arguments.
+
+If the optional 'html' parameter is set to a true value, the content to be
+parsed will be treated as being HTML rather than XML. If the optional
+'htmlencoding' is specified, HTML parsing will be performed with the
+document encoding assumed to that specified.
+
+If the optional 'unfinished' parameter is set to a true value, unfinished
+documents will be parsed, even though such documents may be missing content
+such as closing tags.
+
+A document object is returned by this function.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="parseString"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">parseString</span>(<span class=sig-arg>s</span>,
+          <span class=sig-arg>html</span>=<span class=sig-default>0</span>,
+          <span class=sig-arg>htmlencoding</span>=<span class=sig-default>None</span>,
+          <span class=sig-arg>unfinished</span>=<span class=sig-default>0</span>,
+          <span class=sig-arg>impl</span>=<span class=sig-default>None</span>)</span>
+  </h3>
+<pre class="literalblock">
+Parse the content of the given string 's'. The optional parameters described
+below should be provided as keyword arguments.
+
+If the optional 'html' parameter is set to a true value, the content to be
+parsed will be treated as being HTML rather than XML. If the optional
+'htmlencoding' is specified, HTML parsing will be performed with the
+document encoding assumed to that specified.
+
+If the optional 'unfinished' parameter is set to a true value, unfinished
+documents will be parsed, even though such documents may be missing content
+such as closing tags.
+
+A document object is returned by this function.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="parseURI"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">parseURI</span>(<span class=sig-arg>uri</span>,
+          <span class=sig-arg>html</span>=<span class=sig-default>0</span>,
+          <span class=sig-arg>htmlencoding</span>=<span class=sig-default>None</span>,
+          <span class=sig-arg>unfinished</span>=<span class=sig-default>0</span>,
+          <span class=sig-arg>impl</span>=<span class=sig-default>None</span>)</span>
+  </h3>
+<pre class="literalblock">
+Parse the content found at the given 'uri'. The optional parameters
+described below should be provided as keyword arguments.
+
+If the optional 'html' parameter is set to a true value, the content to be
+parsed will be treated as being HTML rather than XML. If the optional
+'htmlencoding' is specified, HTML parsing will be performed with the
+document encoding assumed to that specified.
+
+If the optional 'unfinished' parameter is set to a true value, unfinished
+documents will be parsed, even though such documents may be missing content
+such as closing tags.
+
+XML documents are retrieved using libxml2's own network capabilities; HTML
+documents are retrieved using the urllib module provided by Python. To
+retrieve either kind of document using Python's own modules for this purpose
+(such as urllib), open a stream and pass it to the parse function:
+
+f = urllib.urlopen(uri)
+try:
+    doc = libxml2dom.parse(f, html)
+finally:
+    f.close()
+
+A document object is returned by this function.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="toFile"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">toFile</span>(<span class=sig-arg>node</span>,
+          <span class=sig-arg>filename</span>,
+          <span class=sig-arg>encoding</span>=<span class=sig-default>None</span>,
+          <span class=sig-arg>prettyprint</span>=<span class=sig-default>0</span>)</span>
+  </h3>
+<pre class="literalblock">
+Write the serialised form of the given 'node' and its children to a file
+having the given 'filename'. The optional 'encoding' can be used to override
+the default character encoding used in the serialisation. The optional
+'prettyprint' indicates whether the serialised form is prettyprinted or not
+(the default setting).
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="toStream"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">toStream</span>(<span class=sig-arg>node</span>,
+          <span class=sig-arg>stream</span>,
+          <span class=sig-arg>encoding</span>=<span class=sig-default>None</span>,
+          <span class=sig-arg>prettyprint</span>=<span class=sig-default>0</span>)</span>
+  </h3>
+<pre class="literalblock">
+Write the serialised form of the given 'node' and its children to the given
+'stream'. The optional 'encoding' can be used to override the default
+character encoding used in the serialisation. The optional 'prettyprint'
+indicates whether the serialised form is prettyprinted or not (the default
+setting).
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="toString"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">toString</span>(<span class=sig-arg>node</span>,
+          <span class=sig-arg>encoding</span>=<span class=sig-default>None</span>,
+          <span class=sig-arg>prettyprint</span>=<span class=sig-default>0</span>)</span>
+  </h3>
+<pre class="literalblock">
+Return a string containing the serialised form of the given 'node' and its
+children. The optional 'encoding' can be used to override the default
+character encoding used in the serialisation. The optional 'prettyprint'
+indicates whether the serialised form is prettyprinted or not (the default
+setting).
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+<br />
+
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th bgcolor="#70b0f0" class="navselect">&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="left"><font size="-2">Generated by Epydoc 2.1 on Tue Sep 18 23:37:02 2007</font></td>
+    <td align="right"><a href="http://epydoc.sourceforge.net"
+                      ><font size="-2">http://epydoc.sf.net</font></a></td>
+  </tr>
+</table>
+</body>
+</html>

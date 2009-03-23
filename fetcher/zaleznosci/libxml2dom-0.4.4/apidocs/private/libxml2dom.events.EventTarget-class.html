@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>libxml2dom.events.EventTarget</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css"></link>
+</head>
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="libxml2dom-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <font size="-1"><b class="breadcrumbs">
+        <a href="libxml2dom-module.html">Package&nbsp;libxml2dom</a> ::
+        <a href="libxml2dom.events-module.html">Module&nbsp;events</a> ::
+        Class&nbsp;EventTarget
+      </b></font></br>
+    </td>
+    <td><table cellpadding="0" cellspacing="0">
+      <tr><td align="right"><font size="-2">[show&nbsp;private&nbsp;|&nbsp;<a href="../public/libxml2dom.events.EventTarget-class.html">hide&nbsp;private</a>]</font></td></tr>
+      <tr><td align="right"><font size="-2">[<a href="frames.html"target="_top">frames</a>&nbsp;|&nbsp;<a href="libxml2dom.events.EventTarget-class.html" target="_top">no&nbsp;frames</a>]</font></td></tr>
+    </table></td>
+</tr></table>
+
+<!-- =========== START OF CLASS DESCRIPTION =========== -->
+<h2 class="class">Class EventTarget</h2>
+
+<dl><dt><b>Known Subclasses:</b></dt>
+<dd>
+    <a href="libxml2dom.svg.SVGDocument-class.html"><code>SVGDocument</code></a>,
+    <a href="libxml2dom.svg.SVGElement-class.html"><code>SVGElement</code></a></dd></dl>
+
+<hr/>
+
+<pre class="literalblock">
+An event target class.
+See: http://www.w3.org/TR/SVGMobile12/svgudom.html#events__EventTarget
+See: http://www.w3.org/TR/DOM-Level-3-Events/events.html#Events-EventTarget
+
+The listeners for a node are accessed through the global object. This common
+collection is consequently accessed by all nodes in a document, meaning that
+distinct objects representing the same node can still obtain the set of
+listeners registered for that node. In contrast, any attempt to directly
+store listeners on particular objects would result in the specific object
+which registered the listeners holding the record of such objects, whereas
+other objects obtained independently for the same node would hold no such
+record.
+</pre>
+<hr/>
+
+
+<!-- =========== START OF METHOD SUMMARY =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Method Summary</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.events.EventTarget-class.html#addEventListener" class="summary-sig-name"><code>addEventListener</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>type</span>,
+          <span class=summary-sig-arg>listener</span>,
+          <span class=summary-sig-arg>useCapture</span>)</span></code>
+<br />
+For the given event 'type', register the given 'listener' for events in
+the capture phase if 'useCapture' is a true value, or for events in the
+target and bubble phases otherwise.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.events.EventTarget-class.html#addEventListenerNS" class="summary-sig-name"><code>addEventListenerNS</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>namespaceURI</span>,
+          <span class=summary-sig-arg>type</span>,
+          <span class=summary-sig-arg>listener</span>,
+          <span class=summary-sig-arg>useCapture</span>,
+          <span class=summary-sig-arg>group</span>)</span></code>
+<br />
+For the given 'namespaceURI' and event 'type', register the given
+'listener' for events in the capture phase if 'useCapture' is a true
+value, or for events in the target and bubble phases otherwise.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.events.EventTarget-class.html#dispatchEvent" class="summary-sig-name"><code>dispatchEvent</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>evt</span>)</span></code>
+<br />
+For this node, dispatch event 'evt' to the registered listeners.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.events.EventTarget-class.html#removeEventListener" class="summary-sig-name"><code>removeEventListener</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>type</span>,
+          <span class=summary-sig-arg>listener</span>,
+          <span class=summary-sig-arg>useCapture</span>)</span></code>
+<br />
+For the given event 'type', deregister the given 'listener' for events
+in the capture phase if 'useCapture' is a true value, or for events in
+the target and bubble phases otherwise.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.events.EventTarget-class.html#removeEventListenerNS" class="summary-sig-name"><code>removeEventListenerNS</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>namespaceURI</span>,
+          <span class=summary-sig-arg>type</span>,
+          <span class=summary-sig-arg>listener</span>,
+          <span class=summary-sig-arg>useCapture</span>)</span></code>
+<br />
+For the given 'namespaceURI' and event 'type', deregister the given
+'listener' for events in the capture phase if 'useCapture' is a true
+value, or for events in the target and bubble phases otherwise.</td></tr>
+</table><br />
+
+
+<!-- =========== START OF METHOD DETAILS =========== -->
+<table class="details" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="details">
+  <th colspan="2">Method Details</th></tr>
+</table>
+
+<a name="addEventListener"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">addEventListener</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>type</span>,
+          <span class=sig-arg>listener</span>,
+          <span class=sig-arg>useCapture</span>)</span>
+  </h3>
+<pre class="literalblock">
+For the given event 'type', register the given 'listener' for events in
+the capture phase if 'useCapture' is a true value, or for events in the
+target and bubble phases otherwise.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="addEventListenerNS"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">addEventListenerNS</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>namespaceURI</span>,
+          <span class=sig-arg>type</span>,
+          <span class=sig-arg>listener</span>,
+          <span class=sig-arg>useCapture</span>,
+          <span class=sig-arg>group</span>=<span class=sig-default>None</span>)</span>
+  </h3>
+<pre class="literalblock">
+For the given 'namespaceURI' and event 'type', register the given
+'listener' for events in the capture phase if 'useCapture' is a true
+value, or for events in the target and bubble phases otherwise.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="dispatchEvent"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">dispatchEvent</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>evt</span>)</span>
+  </h3>
+<pre class="literalblock">
+For this node, dispatch event 'evt' to the registered listeners.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="removeEventListener"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">removeEventListener</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>type</span>,
+          <span class=sig-arg>listener</span>,
+          <span class=sig-arg>useCapture</span>)</span>
+  </h3>
+<pre class="literalblock">
+For the given event 'type', deregister the given 'listener' for events
+in the capture phase if 'useCapture' is a true value, or for events in
+the target and bubble phases otherwise.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="removeEventListenerNS"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">removeEventListenerNS</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>namespaceURI</span>,
+          <span class=sig-arg>type</span>,
+          <span class=sig-arg>listener</span>,
+          <span class=sig-arg>useCapture</span>)</span>
+  </h3>
+<pre class="literalblock">
+For the given 'namespaceURI' and event 'type', deregister the given
+'listener' for events in the capture phase if 'useCapture' is a true
+value, or for events in the target and bubble phases otherwise.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+<br />
+
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="libxml2dom-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="left"><font size="-2">Generated by Epydoc 2.1 on Tue Sep 18 23:37:02 2007</font></td>
+    <td align="right"><a href="http://epydoc.sourceforge.net"
+                      ><font size="-2">http://epydoc.sf.net</font></a></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>libxml2dom.xmpp.XMPPNode</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css"></link>
+</head>
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="libxml2dom-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <font size="-1"><b class="breadcrumbs">
+        <a href="libxml2dom-module.html">Package&nbsp;libxml2dom</a> ::
+        <a href="libxml2dom.xmpp-module.html">Module&nbsp;xmpp</a> ::
+        Class&nbsp;XMPPNode
+      </b></font></br>
+    </td>
+    <td><table cellpadding="0" cellspacing="0">
+      <tr><td align="right"><font size="-2">[show&nbsp;private&nbsp;|&nbsp;<a href="../public/libxml2dom.xmpp.XMPPNode-class.html">hide&nbsp;private</a>]</font></td></tr>
+      <tr><td align="right"><font size="-2">[<a href="frames.html"target="_top">frames</a>&nbsp;|&nbsp;<a href="libxml2dom.xmpp.XMPPNode-class.html" target="_top">no&nbsp;frames</a>]</font></td></tr>
+    </table></td>
+</tr></table>
+
+<!-- =========== START OF CLASS DESCRIPTION =========== -->
+<h2 class="class">Type XMPPNode</h2>
+
+<pre class="base-tree">
+<a href="__builtin__.object-class.html"><code>object</code></a> --+    
+         |    
+      <a href="libxml2dom.Node-class.html"><code>Node</code></a> --+
+             |
+            <b>XMPPNode</b>
+</pre><br />
+
+<dl><dt><b>Known Subclasses:</b></dt>
+<dd>
+    <a href="libxml2dom.xmpp.XEP0022EventElement-class.html"><code>XEP0022EventElement</code></a>,
+    <a href="libxml2dom.xmpp.XMPPAuthElement-class.html"><code>XMPPAuthElement</code></a>,
+    <a href="libxml2dom.xmpp.XMPPBindElement-class.html"><code>XMPPBindElement</code></a>,
+    <a href="libxml2dom.xmpp.XMPPClientElement-class.html"><code>XMPPClientElement</code></a>,
+    <a href="libxml2dom.xmpp.XMPPDocument-class.html"><code>XMPPDocument</code></a>,
+    <a href="libxml2dom.xmpp.XMPPElement-class.html"><code>XMPPElement</code></a>,
+    <a href="libxml2dom.xmpp.XMPPRegisterElement-class.html"><code>XMPPRegisterElement</code></a>,
+    <a href="libxml2dom.xmpp.XMPPStreamElement-class.html"><code>XMPPStreamElement</code></a></dd></dl>
+
+<hr/>
+
+<pre class="literalblock">
+Convenience modifications to nodes specific to libxml2dom.svg.
+</pre>
+<hr/>
+
+
+<!-- =========== START OF METHOD SUMMARY =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Method Summary</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.xmpp.XMPPNode-class.html#xpath" class="summary-sig-name"><code>xpath</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>expr</span>,
+          <span class=summary-sig-arg>variables</span>,
+          <span class=summary-sig-arg>namespaces</span>)</span></code>
+<br />
+Evaluate the given 'expr' using the optional 'variables' and
+'namespaces'.</td></tr>
+<tr bgcolor="#e8f0f8" class="group">
+  <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;Inherited from Node</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#__init__" class="summary-sig-name"><code>__init__</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>node</span>,
+          <span class=summary-sig-arg>impl</span>,
+          <span class=summary-sig-arg>ownerDocument</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#__eq__" class="summary-sig-name"><code>__eq__</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>other</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#__hash__" class="summary-sig-name"><code>__hash__</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#__ne__" class="summary-sig-name"><code>__ne__</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>other</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#appendChild" class="summary-sig-name"><code>appendChild</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>tmp</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#as_native_node" class="summary-sig-name"><code>as_native_node</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#cloneNode" class="summary-sig-name"><code>cloneNode</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>deep</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#createAttribute" class="summary-sig-name"><code>createAttribute</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>name</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#createAttributeNS" class="summary-sig-name"><code>createAttributeNS</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>ns</span>,
+          <span class=summary-sig-arg>name</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#createCDATASection" class="summary-sig-name"><code>createCDATASection</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>value</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#createComment" class="summary-sig-name"><code>createComment</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>value</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#createElement" class="summary-sig-name"><code>createElement</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>name</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#createElementNS" class="summary-sig-name"><code>createElementNS</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>ns</span>,
+          <span class=summary-sig-arg>name</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#createTextNode" class="summary-sig-name"><code>createTextNode</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>value</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#getAttribute" class="summary-sig-name"><code>getAttribute</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>name</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#getAttributeNode" class="summary-sig-name"><code>getAttributeNode</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>localName</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#getAttributeNodeNS" class="summary-sig-name"><code>getAttributeNodeNS</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>ns</span>,
+          <span class=summary-sig-arg>localName</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#getAttributeNS" class="summary-sig-name"><code>getAttributeNS</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>ns</span>,
+          <span class=summary-sig-arg>localName</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#getElementById" class="summary-sig-name"><code>getElementById</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>identifier</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#getElementsByTagName" class="summary-sig-name"><code>getElementsByTagName</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>tagName</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#getElementsByTagNameNS" class="summary-sig-name"><code>getElementsByTagNameNS</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>namespaceURI</span>,
+          <span class=summary-sig-arg>localName</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#hasAttribute" class="summary-sig-name"><code>hasAttribute</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>name</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#hasAttributeNS" class="summary-sig-name"><code>hasAttributeNS</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>ns</span>,
+          <span class=summary-sig-arg>localName</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#importNode" class="summary-sig-name"><code>importNode</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>node</span>,
+          <span class=summary-sig-arg>deep</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#insertBefore" class="summary-sig-name"><code>insertBefore</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>tmp</span>,
+          <span class=summary-sig-arg>oldNode</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#isSameNode" class="summary-sig-name"><code>isSameNode</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>other</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#normalize" class="summary-sig-name"><code>normalize</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#removeAttribute" class="summary-sig-name"><code>removeAttribute</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>name</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#removeAttributeNS" class="summary-sig-name"><code>removeAttributeNS</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>ns</span>,
+          <span class=summary-sig-arg>localName</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#removeChild" class="summary-sig-name"><code>removeChild</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>tmp</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#replaceChild" class="summary-sig-name"><code>replaceChild</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>tmp</span>,
+          <span class=summary-sig-arg>oldNode</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#setAttribute" class="summary-sig-name"><code>setAttribute</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>name</span>,
+          <span class=summary-sig-arg>value</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#setAttributeNode" class="summary-sig-name"><code>setAttributeNode</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>node</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#setAttributeNodeNS" class="summary-sig-name"><code>setAttributeNodeNS</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>node</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#setAttributeNS" class="summary-sig-name"><code>setAttributeNS</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>ns</span>,
+          <span class=summary-sig-arg>name</span>,
+          <span class=summary-sig-arg>value</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#toFile" class="summary-sig-name"><code>toFile</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>f</span>,
+          <span class=summary-sig-arg>encoding</span>,
+          <span class=summary-sig-arg>prettyprint</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#toStream" class="summary-sig-name"><code>toStream</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>stream</span>,
+          <span class=summary-sig-arg>encoding</span>,
+          <span class=summary-sig-arg>prettyprint</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.Node-class.html#toString" class="summary-sig-name"><code>toString</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>encoding</span>,
+          <span class=summary-sig-arg>prettyprint</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_attributes" class="summary-sig-name"><code>_attributes</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_childNodes" class="summary-sig-name"><code>_childNodes</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_doctype" class="summary-sig-name"><code>_doctype</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_findId" class="summary-sig-name"><code>_findId</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>declaration</span>,
+          <span class=summary-sig-arg>identifier</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_findIdValue" class="summary-sig-name"><code>_findIdValue</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>declaration</span>,
+          <span class=summary-sig-arg>i</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_firstChild" class="summary-sig-name"><code>_firstChild</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_lastChild" class="summary-sig-name"><code>_lastChild</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_localName" class="summary-sig-name"><code>_localName</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_namespaceURI" class="summary-sig-name"><code>_namespaceURI</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_nextSibling" class="summary-sig-name"><code>_nextSibling</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_nodeName" class="summary-sig-name"><code>_nodeName</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_nodeType" class="summary-sig-name"><code>_nodeType</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_nodeValue" class="summary-sig-name"><code>_nodeValue</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_normalize" class="summary-sig-name"><code>_normalize</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>text_nodes</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_parentNode" class="summary-sig-name"><code>_parentNode</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_prefix" class="summary-sig-name"><code>_prefix</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_previousSibling" class="summary-sig-name"><code>_previousSibling</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_publicId" class="summary-sig-name"><code>_publicId</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_setNodeValue" class="summary-sig-name"><code>_setNodeValue</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>value</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_systemId" class="summary-sig-name"><code>_systemId</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_tagName" class="summary-sig-name"><code>_tagName</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_textContent" class="summary-sig-name"><code>_textContent</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr bgcolor="#e8f0f8" class="group">
+  <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;Inherited from object</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="__builtin__.object-class.html#__delattr__" class="summary-sig-name"><code>__delattr__</code></a>(<span class="summary-sig-vararg">...</span>)</span></code>
+<br />
+x.__delattr__('name') &lt;==&gt; del x.name...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="__builtin__.object-class.html#__getattribute__" class="summary-sig-name"><code>__getattribute__</code></a>(<span class="summary-sig-vararg">...</span>)</span></code>
+<br />
+x.__getattribute__('name') &lt;==&gt; x.name...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="__builtin__.object-class.html#__new__" class="summary-sig-name"><code>__new__</code></a>(<span class=summary-sig-arg>T</span>,
+          <span class=summary-sig-arg>S</span>,
+          <span class="summary-sig-vararg">...</span>)</span></code>
+<br />
+T.__new__(S, ...) -&gt; a new object with type S, a subtype of T...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="__builtin__.object-class.html#__reduce__" class="summary-sig-name"><code>__reduce__</code></a>(<span class="summary-sig-vararg">...</span>)</span></code>
+<br />
+helper for pickle...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="__builtin__.object-class.html#__reduce_ex__" class="summary-sig-name"><code>__reduce_ex__</code></a>(<span class="summary-sig-vararg">...</span>)</span></code>
+<br />
+helper for pickle...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="__builtin__.object-class.html#__repr__" class="summary-sig-name"><code>__repr__</code></a>(<span class=summary-sig-arg>x</span>)</span></code>
+<br />
+x.__repr__() &lt;==&gt; repr(x)...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="__builtin__.object-class.html#__setattr__" class="summary-sig-name"><code>__setattr__</code></a>(<span class="summary-sig-vararg">...</span>)</span></code>
+<br />
+x.__setattr__('name', value) &lt;==&gt; x.name = value...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="__builtin__.object-class.html#__str__" class="summary-sig-name"><code>__str__</code></a>(<span class=summary-sig-arg>x</span>)</span></code>
+<br />
+x.__str__() &lt;==&gt; str(x)...</td></tr>
+</table><br />
+
+
+<!-- =========== START OF PROPERTY SUMMARY =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Property Summary</th></tr>
+<tr bgcolor="#e8f0f8" class="group">
+  <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;Inherited from Node</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#attributes"><code>attributes</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#childNodes"><code>childNodes</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#data"><code>data</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#doctype"><code>doctype</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#firstChild"><code>firstChild</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#lastChild"><code>lastChild</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#localName"><code>localName</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#name"><code>name</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#namespaceURI"><code>namespaceURI</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#nextSibling"><code>nextSibling</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#nodeName"><code>nodeName</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#nodeType"><code>nodeType</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#nodeValue"><code>nodeValue</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#parentNode"><code>parentNode</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#prefix"><code>prefix</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#previousSibling"><code>previousSibling</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#publicId"><code>publicId</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#systemId"><code>systemId</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#tagName"><code>tagName</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#textContent"><code>textContent</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#value"><code>value</code></a></b></td></tr></table><br />
+
+
+<!-- =========== START OF CLASS VARIABLE SUMMARY =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Class Variable Summary</th></tr>
+<tr bgcolor="#e8f0f8" class="group">
+  <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;Inherited from Node</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#ATTRIBUTE_NODE"><code>ATTRIBUTE_NODE</code></a></b> = <span title="2">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#COMMENT_NODE"><code>COMMENT_NODE</code></a></b> = <span title="8">8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#DOCUMENT_NODE"><code>DOCUMENT_NODE</code></a></b> = <span title="9">9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#DOCUMENT_TYPE_NODE"><code>DOCUMENT_TYPE_NODE</code></a></b> = <span title="10">10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#ELEMENT_NODE"><code>ELEMENT_NODE</code></a></b> = <span title="1">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>dict</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#entities"><code>entities</code></a></b> = <span title="{}"><code>{}                                            </code>
+</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#ENTITY_NODE"><code>ENTITY_NODE</code></a></b> = <span title="6">6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#ENTITY_REFERENCE_NODE"><code>ENTITY_REFERENCE_NODE</code></a></b> = <span title="5">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#NOTATION_NODE"><code>NOTATION_NODE</code></a></b> = <span title="12">12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>dict</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#notations"><code>notations</code></a></b> = <span title="{}"><code>{}                                           </code>
+</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#PROCESSING_INSTRUCTION_NODE"><code>PROCESSING_INSTRUCTION_NODE</code></a></b> = <span title="7">7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#TEXT_NODE"><code>TEXT_NODE</code></a></b> = <span title="3">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+</table><br />
+
+
+<!-- =========== START OF METHOD DETAILS =========== -->
+<table class="details" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="details">
+  <th colspan="2">Method Details</th></tr>
+</table>
+
+<a name="xpath"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">xpath</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>expr</span>,
+          <span class=sig-arg>variables</span>=<span class=sig-default>None</span>,
+          <span class=sig-arg>namespaces</span>=<span class=sig-default>None</span>)</span>
+  </h3>
+<pre class="literalblock">
+Evaluate the given 'expr' using the optional 'variables' and
+'namespaces'. If not otherwise specified, the &quot;stream&quot; prefix will be
+bound to XMPP_STREAMS_NAMESPACE as defined in this module.
+</pre>
+  <dl><dt></dt><dd>
+    <dl><dt><b>Overrides:</b></dt>
+      <dd><a href="libxml2dom.Node-class.html#xpath"><code>libxml2dom.Node.xpath</code></a></dd>
+    </dl>
+  </dd></dl>
+</td></tr></table>
+<br />
+
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="libxml2dom-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="left"><font size="-2">Generated by Epydoc 2.1 on Tue Sep 18 23:37:01 2007</font></td>
+    <td align="right"><a href="http://epydoc.sourceforge.net"
+                      ><font size="-2">http://epydoc.sf.net</font></a></td>
+  </tr>
+</table>
+</body>
+</html>

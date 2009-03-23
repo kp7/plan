@@ -1,0 +1,48 @@
+Experiments
+-----------
+
+The libxml2macro.py program, along with the libxml2dom.macrolib package
+provide support for writing DOM-style code which is then translated to
+libxml2mod-style code before being compiled to normal Python modules. This
+special translation should eliminate the need for high-level wrapper objects
+in most cases as well as low-level libxml2 objects, since the actual compiled
+code will be using the libxml2mod functions directly.
+
+To use libxml2macro.py, first write your code using the typical PyXML DOM
+style, but make sure that you use a common prefix for all node variables and
+which is not used by any other kind of variable, and make sure that you do not
+re-use node variables to refer to other kinds of object. Here is an example of
+the coding style:
+
+  # My module.
+
+  import libxml2macro as my_
+
+  def processing_function(my_document, some_args):
+
+      # Perform actions on nodes:
+
+      my_node = my_document.createElementNS("namespace", "some-name")
+
+      # Perform actions on other data as normal:
+
+      some_function(some_args)
+
+Then, run libxml2macro.py on the module like this (using tests/macrotest.py as
+an example):
+
+  tools/libxml2macro.py tests/macrotest.py
+
+This produces a compiled module that can be imported into Python; for example:
+
+  cd tests
+  python
+  import macrotest
+
+It should be possible to run the module directly; for example:
+
+  python tests/macrotest.pyc
+
+Note that running the module using the source filename will probably result in
+the compiled module being overwritten and various errors being produced. So
+don't do that!

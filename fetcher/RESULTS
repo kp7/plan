@@ -1,0 +1,757 @@
+* Wstêp do programowania
+ -  4526 ( 1727) words (distinct). Name: Wstêp do algorytmów
+ -   963 (  492) words (distinct). Name: Wprowadzenie do programowania
+ -  2328 (  942) words (distinct). Name: Gramatyki ? definiowanie sk³adni i semantyki wyra¿eñ
+ -  4141 ( 1456) words (distinct). Name: Reprezentacja liczb
+ -  3098 ( 1101) words (distinct). Name: Sk³adnia i semantyka instrukcji
+ -  5027 ( 1466) words (distinct). Name: Dowodzenie poprawno¶ci programów
+ -  2992 ( 1065) words (distinct). Name: Pliki
+ -   859 (  425) words (distinct). Name: Pamiêæ dynamiczna
+ -   333 (  243) words (distinct). Name: Procedury i funkcje
+ -  1454 (  698) words (distinct). Name: Rekursja
+* Analiza matematyczna 1
+ -  2087 (  728) words (distinct). Name: Zbiory liczbowe
+ -  1814 (  532) words (distinct). Name: Funkcje elementarne
+ -  2378 (  675) words (distinct). Name: Odleg³o¶æ i ci±gi
+ -  1731 (  455) words (distinct). Name: Ci±gi liczbowe
+ -  1681 (  477) words (distinct). Name: Obliczanie granic
+ -  1189 (  377) words (distinct). Name: Szeregi liczbowe
+ -  1533 (  427) words (distinct). Name: Szeregi liczbowe. Kryteria zbie¿no¶ci
+ -  2461 (  617) words (distinct). Name: Granica i ci±g³o¶æ funkcji
+ -  3721 (  885) words (distinct). Name: Pochodna funkcji jednej zmiennej
+ -  1820 (  576) words (distinct). Name: Wzór Taylora. Ekstrema
+ -  2053 (  558) words (distinct). Name: Regu³a de l'Hospitala. Równo¶æ asymptotyczna
+ -  2727 (  744) words (distinct). Name: Wypuk³o¶æ. Badanie funkcji jednej zmiennej
+ -  2091 (  651) words (distinct). Name: Ca³ka nieoznaczona
+ -  2054 (  653) words (distinct). Name: Ca³ka Riemanna funkcji jednej zmiennej
+ -  1349 (  485) words (distinct). Name: Krzywe i bry³y obrotowe
+* Algebra liniowa z geometri± analityczn±
+ -  1418 (  518) words (distinct). Name: Grupy i cia³a
+ -  1423 (  504) words (distinct). Name: Przestrzenie wektorowe
+ -  1734 (  514) words (distinct). Name: Uk³ady liniowo niezale¿ne, generatory, bazy
+ -  1467 (  466) words (distinct). Name: Odwzorowania liniowe
+ -  1036 (  433) words (distinct). Name: Macierze
+ -  1052 (  364) words (distinct). Name: Macierze a odwzorowania liniowe
+ -  1213 (  422) words (distinct). Name: Wyznacznik
+ -  1020 (  386) words (distinct). Name: Zastosowania wyznacznika. Uk³ady równañ liniowych
+ -  1369 (  454) words (distinct). Name: Endomorfizmy. Twierdzenie Jordana
+ -  1324 (  478) words (distinct). Name: Euklidesowe przestrzenie wektorowe
+ -  1014 (  410) words (distinct). Name: Formy kwadratowe
+ -   937 (  377) words (distinct). Name: Miara uk³adu wektorów
+ -  1057 (  393) words (distinct). Name: Przestrzenie afiniczne I
+ -   909 (  350) words (distinct). Name: Przestrzenie afiniczne II
+ -  1779 (  593) words (distinct). Name: Euklidesowe przestrzenie afiniczne
+* Rachunek prawdopodobieñstwa i statystyka
+ -  2308 ( 1143) words (distinct). Name: Wstêp
+ -  1410 (  651) words (distinct). Name: Statystyka opisowa
+ -  2997 ( 1074) words (distinct). Name: Przestrzeñ probabilistyczna I
+ -   786 (  421) words (distinct). Name: Przestrzeñ probabilistyczna II
+ -  1606 (  702) words (distinct). Name: Prawdopodobieñstwo warunkowe i niezale¿no¶æ
+ -  2445 (  855) words (distinct). Name: Rozk³ady prawdopodobieñstwa i zmienne losowe
+ -  2229 (  891) words (distinct). Name: Parametry rozk³adów zmiennych losowych
+ -  2151 (  786) words (distinct). Name: Przegl±d wa¿niejszych rozk³adów
+ -  2130 (  994) words (distinct). Name: Rozk³ad normalny i centralne twierdzenie graniczne
+ -  1804 (  723) words (distinct). Name: £añcuchy Markowa
+ -  1418 (  643) words (distinct). Name: Wnioskowanie statystyczne
+ -  1380 (  590) words (distinct). Name: Metoda najwiêkszej wiarygodno¶ci
+ -  2574 (  988) words (distinct). Name: Przedzia³y ufno¶ci i testy
+ -  1258 (  628) words (distinct). Name: Komputerowe metody statystyki
+* Matematyka dyskretna 1
+ -  2026 (  761) words (distinct). Name: Indukcja
+ -  1847 (  764) words (distinct). Name: Rekurencja
+ -  3807 ( 1102) words (distinct). Name: Zliczanie zbiorów i funkcji
+ -  1433 (  651) words (distinct). Name: Sumy skoñczone i rachunek ró¿nicowy
+ -  2862 (  989) words (distinct). Name: Wspó³czynniki dwumianowe
+ -  3399 ( 1022) words (distinct). Name: Permutacje i podzia³y
+ -  1473 (  639) words (distinct). Name: Funkcje tworz±ce
+ -  1099 (  458) words (distinct). Name: Funkcje tworz±ce w zliczaniu obiektów kombinatorycznych
+ -  1848 (  754) words (distinct). Name: Asymptotyka
+ -  2866 (  987) words (distinct). Name: Teoria liczb
+ -  2655 (  907) words (distinct). Name: Teoria liczb II
+ -  1789 (  676) words (distinct). Name: Grafy
+ -  3423 ( 1108) words (distinct). Name: Grafy II
+ -  2201 (  780) words (distinct). Name: Grafy III
+ -  1523 (  552) words (distinct). Name: Metody algebraiczne w teorii grafów
+* Algorytmy i struktury danych
+ -  3833 ( 1331) words (distinct). Name: Wstêp: poprawno¶æ i z³o¿ono¶æ algorytmu
+ -  3781 ( 1300) words (distinct). Name: Wstêp: elementarne techniki algorytmiczne i struktury danych
+ -  1623 (  627) words (distinct). Name: Sortowanie przez porównania: BubleSort, SelectionSort i InsertionSort
+ -  4539 ( 1298) words (distinct). Name: Sortowanie przez porównania: MergeSort, HeapSort i QuickSort
+ -    40 (   26) words (distinct). Name: Sortowanie: dolna granica, sortowanie pozycyjne
+ -   717 (  308) words (distinct). Name: Selekcja
+ -  1633 (  530) words (distinct). Name: Wyszukiwanie
+ -  2304 (  830) words (distinct). Name: S³owniki
+ -  1610 (  732) words (distinct). Name: Kolejki priorytetowe
+ -  1492 (  650) words (distinct). Name: Find-Union
+ -  1914 (  725) words (distinct). Name: Algorytmy grafowe - najl¿ejsze ¶cie¿ki
+ -  1815 (  678) words (distinct). Name: Algorytmy grafowe - przeszukiwanie grafów
+ -  1725 (  615) words (distinct). Name: Algorytmy tekstowe I
+ -  1979 (  812) words (distinct). Name: Algorytmy tekstowe II
+ -  1191 (  502) words (distinct). Name: NP-zupe³no¶æ
+* Metody numeryczne
+ -  4969 ( 2000) words (distinct). Name: Wprowadzenie do metod numerycznych
+ -  2495 (  998) words (distinct). Name: Równania nieliniowe
+ -  3809 ( 1426) words (distinct). Name: Arytmetyka zmiennoprzecinkowa
+ -  1658 (  670) words (distinct). Name: W³asno¶ci zadañ obliczeniowych i algorytmów numerycznych
+ -  1607 (  655) words (distinct). Name: Uk³ady równañ liniowych
+ -  3239 ( 1313) words (distinct). Name: Pamiêæ hierarchiczna a algorytmy numeryczne
+ -  1160 (  551) words (distinct). Name: Uwarunkowanie uk³adu równañ liniowych
+ -  3526 ( 1319) words (distinct). Name: Wielkie uk³ady równañ liniowych
+ -  3227 ( 1089) words (distinct). Name: Interpolacja wielomianowa
+ -  1238 (  635) words (distinct). Name: Szybka transformacja Fouriera (FFT)
+ -  1741 (  714) words (distinct). Name: Funkcje sklejane (splajny)
+ -  1823 (  823) words (distinct). Name: Nadokre¶lone uk³ady równañ
+ -  3228 ( 1214) words (distinct). Name: Wektory i warto¶ci w³asne
+ -  3149 ( 1224) words (distinct). Name: Ca³kowanie i ró¿niczkowanie numeryczne
+* Architektura systemów komputerowych
+ -    42 (   40) words (distinct). Name: Wprowadzenie
+ -  1001 (  535) words (distinct). Name: Wstêp - trochê teorii
+ -  1963 (  902) words (distinct). Name: Dane
+ -  2038 (  867) words (distinct). Name: Synteza modelu programowego
+ -  1559 (  763) words (distinct). Name: Struktura modelu programowego
+ -   756 (  453) words (distinct). Name: Model programowy procesora w podej¶ciu CISC i RISC
+ -   164 (  135) words (distinct). Name: Jednostka wykonawcza procesora
+ -  1627 (  752) words (distinct). Name: Dzia³anie potokowej jednostki wykonawczej
+ -    19 (   19) words (distinct). Name: Procesory wielopotokowe
+ -    21 (   21) words (distinct). Name: Kieszenie jako warstwa hierarchii pamiêci
+ -   824 (  427) words (distinct). Name: Redukcja opó¼nieñ w procesorach superskalarnych i superpotokowych
+ -    21 (   19) words (distinct). Name: Ochrona zasobów
+ -    25 (   23) words (distinct). Name: Zarz±dzanie pamiêci±
+ -    21 (   21) words (distinct). Name: Wyj±tki
+ -   724 (  422) words (distinct). Name: Wej¶cie-wyj¶cie
+ -   387 (  255) words (distinct). Name: Struktura komputera
+* Programowanie niskopoziomowe
+ -    40 (   38) words (distinct). Name: Wprowadzenie
+ -   656 (  369) words (distinct). Name: Wiadomo¶ci podstawowe
+ -   488 (  288) words (distinct). Name: Proces tworzenia programu
+ -   321 (  234) words (distinct). Name: Programowanie asemblerowe w ¶rodowisku systemu operacyjnego
+ -   856 (  412) words (distinct). Name: Programowanie hybrydowe
+ -   543 (  329) words (distinct). Name: Techniki programowania asemblerowego
+ -   252 (  189) words (distinct). Name: Programowanie jednostek wektorowych
+* Systemy operacyjne
+ -  4518 ( 1446) words (distinct). Name: Wstêp
+ -  4956 ( 1369) words (distinct). Name: Procesy, zasoby i w±tki
+ -  4979 ( 1481) words (distinct). Name: Planowanie przydzia³u procesora
+ -  4522 ( 1189) words (distinct). Name: Przyk³ady implementacji planowania przydzia³u procesora
+ -  6201 ( 1666) words (distinct). Name: Zarz±dzanie pamiêci± operacyjn±
+ -  8018 ( 1901) words (distinct). Name: Pamiêæ wirtualna
+ -  6703 ( 1803) words (distinct). Name: Urz±dzenia wej¶cia-wyj¶cia
+ -  3569 ( 1100) words (distinct). Name: System plików ? warstwa logiczna
+ -  3878 ( 1137) words (distinct). Name: System plików ? warstwa fizyczna
+ -  3938 ( 1164) words (distinct). Name: System plików ? przyk³ady implementacji
+ -  6096 ( 1650) words (distinct). Name: Wspó³bie¿no¶æ i synchronizacja procesów
+ -  6502 ( 1602) words (distinct). Name: Systemowe mechanizmy synchronizacji procesów
+ -  4058 ( 1002) words (distinct). Name: Problem zakleszczenia
+ -  4706 ( 1183) words (distinct). Name: Przeciwdzia³anie zakleszczeniu
+* Sieci komputerowe
+ -  3742 ( 1562) words (distinct). Name: Modu³ 1 - Wprowadzenie
+ -  3795 ( 1570) words (distinct). Name: Modu³ 2 - Media
+ -  3256 ( 1464) words (distinct). Name: Modu³ 3 - Ethernet
+ - 11898 ( 3056) words (distinct). Name: Modu³ 4 - WAN
+ -  4421 ( 1478) words (distinct). Name: Modu³ 5 - Protoko³y warstwy internetowej stosu TCP/IP: IP, ICMP, IGMP
+ -  3826 ( 1241) words (distinct). Name: Modu³ 6 - Adresacja IP
+ -  2459 (  885) words (distinct). Name: Modu³ 7 - Uzyskiwanie adresu IP
+ -  3045 ( 1161) words (distinct). Name: Modu³ 8 - Protoko³y warstwy transportowej stosu protoko³ów TCP/IP
+ -  6537 ( 2082) words (distinct). Name: Modu³ 9 - DNS
+ -  3734 ( 1442) words (distinct). Name: Modu³ 10 - Routing IP
+ -  3422 ( 1588) words (distinct). Name: Modu³ 11 - WLAN
+ -  8511 ( 2690) words (distinct). Name: Modu³ 12 - Us³ugi sieciowe
+ - 10725 ( 3548) words (distinct). Name: Modu³ 13 - Ochrona danych w sieci
+* Aplikacje WWW
+ -  4532 ( 1480) words (distinct). Name: WIKI
+ -  6955 ( 1839) words (distinct). Name: WIKI
+ -  5855 ( 1991) words (distinct). Name: WIKI
+ -  4490 ( 1345) words (distinct). Name: WIKI
+ -  5035 ( 1263) words (distinct). Name: WIKI
+ -  7236 ( 2010) words (distinct). Name: WIKI
+ -  5282 ( 1608) words (distinct). Name: WIKI
+ -  5395 ( 1621) words (distinct). Name: WIKI
+ -  6514 ( 1718) words (distinct). Name: WIKI
+ -  6675 ( 1763) words (distinct). Name: WIKI
+ -  5232 ( 1482) words (distinct). Name: WIKI
+ -  3382 ( 1121) words (distinct). Name: WIKI
+ -  2810 ( 1073) words (distinct). Name: WIKI
+* Bezpieczeñstwo systemów komputerowych
+ -  2527 ( 1170) words (distinct). Name: Wprowadzenie do problematyki bezpieczeñstwa systemów komputerowych
+ -  2219 ( 1053) words (distinct). Name: Podstawowe definicje i problemy
+ -  2782 ( 1318) words (distinct). Name: Ogólne w³asno¶ci bezpieczeñstwa informacji
+ -  4437 ( 1721) words (distinct). Name: Podstawowe elementy kryptografii
+ -  3379 ( 1507) words (distinct). Name: Wykorzystanie kryptografii
+ -  4931 ( 1985) words (distinct). Name: Podstawowe problemy bezpieczeñstwa sieci komputerowych
+ -  4229 ( 1828) words (distinct). Name: Podstawowe problemy bezpieczeñstwa systemów operacyjnych
+ -  2267 ( 1041) words (distinct). Name: Tunele wirtualne VPN
+ -  1908 (  939) words (distinct). Name: Zapory sieciowe (firewall) i translacja adresów
+ -  2186 ( 1147) words (distinct). Name: Bezpieczeñstwo aplikacji i us³ug sieciowych
+* Programowanie obiektowe
+ -  3084 ( 1324) words (distinct). Name: Obiektowe modelowanie dziedziny
+ -  3702 ( 1542) words (distinct). Name: Wprowadzenie do programowania obiektowego
+ -  2699 ( 1172) words (distinct). Name: Wstêp do Javy
+ -  1462 (  637) words (distinct). Name: Klasy i kapsu³kowanie
+ -  3192 ( 1083) words (distinct). Name: Dziedziczenie i interfejsy
+ -  2878 ( 1039) words (distinct). Name: Wyj±tki
+ -  2296 (  768) words (distinct). Name: Wyj±tki c.d.
+ -  4327 ( 1429) words (distinct). Name: Typy uogólnione
+ -  3476 ( 1222) words (distinct). Name: Kolekcje - wstêp
+ -  3227 ( 1255) words (distinct). Name: Kolekcje - przegl±d
+ -  2794 ( 1003) words (distinct). Name: Strumienie
+ -  3203 (  939) words (distinct). Name: Serializacja
+ -  3710 ( 1229) words (distinct). Name: Graficzny interfejs u¿ytkownika
+* Paradygmaty programowania
+ -  2485 ( 1230) words (distinct). Name: Co to jest paradygmat programowania?
+ -  3831 ( 1305) words (distinct). Name: Semantyka zmiennych
+ -  3988 ( 1459) words (distinct). Name: Typy, typy abstrakcyjne
+ -  3866 ( 1295) words (distinct). Name: Podprogramy
+ -  2690 ( 1029) words (distinct). Name: Programowanie obiektowe ? przegl±d
+ -  2417 (  957) words (distinct). Name: Programowanie funkcyjne ? przegl±d
+ -  1353 (  664) words (distinct). Name: Programowanie w logice ? przegl±d
+ -  1759 (  655) words (distinct). Name: U podstaw programowania funkcyjnego ? rachunek lambda
+ -  1719 (  817) words (distinct). Name: U podstaw programowania obiektowego ? rachunek sigma
+ -  2785 ( 1089) words (distinct). Name: Programowanie funkcyjne w Haskellu I
+ -  2399 (  833) words (distinct). Name: Programowanie funkcyjne w Haskellu II
+ -  2232 (  929) words (distinct). Name: Programowanie funkcyjne w Haskellu III
+ -  2328 (  988) words (distinct). Name: Programowanie w logice w Prologu I
+ -  2578 ( 1039) words (distinct). Name: Programowanie w logice w Prologu II
+ -  1934 ( 1007) words (distinct). Name: Inne paradygmaty warte wspomnienia
+* Grafika komputerowa i wizualizacja
+ -   929 (  617) words (distinct). Name: Modu³ 0 - Wstêp
+ -  1655 (  989) words (distinct). Name: Modu³ 1 - Wprowadzenie do grafiki komputerowej
+ -  4605 ( 1939) words (distinct). Name: Modu³ 2 - ¦wiat³o i barwa w grafice komputerowej
+ -  2490 ( 1046) words (distinct). Name: Modu³ 3 - Podstawowe operacje rastrowe
+ -  1924 (  775) words (distinct). Name: Modu³ 4 - Przekszta³cenia geometryczne
+ -  2359 ( 1024) words (distinct). Name: Modu³ 5 - Reprezentacja przestrzeni trójwymiarowej na p³aszczy¼nie
+ -  4372 ( 1803) words (distinct). Name: Modu³ 6 - Modelowanie obiektów
+ -  3569 ( 1319) words (distinct). Name: Modu³ 7 - Eliminacja powierzchni zas³oniêtych
+ -  2893 ( 1210) words (distinct). Name: Modu³ 8 - Modelowanie o¶wietlenia
+ -  4004 ( 1591) words (distinct). Name: Modu³ 9 - O¶wietlenie globalne
+ -  6250 ( 2467) words (distinct). Name: Modu³ 10 - D±¿enie do realizmu, animacja
+* Bazy danych
+ -  3941 ( 1188) words (distinct). Name: Wyk³ad 1. Wprowadzenie do problematyki baz danych
+ -  3232 (  756) words (distinct). Name: Wyk³ad 2. Relacyjny model danych
+ -  4141 (  974) words (distinct). Name: Wyk³ad 3. Modelowanie danych: Model zwi±zków-encji
+ -  2415 (  535) words (distinct). Name: Wyk³ad 4. Transformacja modelu ER do modelu relacyjnego
+ -  4629 (  921) words (distinct). Name: Wyk³ad 5. Normalizacja schematów logicznych relacji
+ -  4845 ( 1190) words (distinct). Name: Wyk³ad 6. Organizacja plików
+ -  3964 (  885) words (distinct). Name: Wyk³ad 7. Indeksy
+ -  4457 (  991) words (distinct). Name: Wyk³ad 8. Przetwarzanie transakcyjne
+ -  3242 (  712) words (distinct). Name: Wyk³ad 9. Algorytmy zarz±dzania wspó³bie¿nym wykonywaniem transakcji - czê¶æ I
+ -  3328 (  878) words (distinct). Name: Wyk³ad 10. Algorytmy zarz±dzania wspó³bie¿nym wykonywaniem transakcji - czê¶æ II
+ -  4561 ( 1057) words (distinct). Name: Wyk³ad 11. Recovery ? Transakcyjne odtwarzanie bazy danych po awarii
+ -  3588 (  978) words (distinct). Name: Wyk³ad 12. Optymalizacja zapytañ - czê¶æ I
+ -  4433 ( 1101) words (distinct). Name: Wyk³ad 13. Optymalizacja zapytañ - czê¶æ II
+* In¿ynieria oprogramowania
+ -  7346 ( 1909) words (distinct). Name: Wprowadzenie do przedmiotu
+ -  7472 ( 2380) words (distinct). Name: Zasady skutecznego dzia³ania
+ -  4947 ( 1475) words (distinct). Name: Specyfikacja wymagañ
+ -  4801 ( 1520) words (distinct). Name: Kontrola jako¶ci artefaktów
+ -  4153 ( 1412) words (distinct). Name: Jêzyk UML, cz. I
+ -  4147 ( 1518) words (distinct). Name: Jêzyk UML, cz. II
+ -  6708 ( 1546) words (distinct). Name: Metody formalne
+ -  4476 ( 1473) words (distinct). Name: Wzorce projektowe
+ -  4168 ( 1280) words (distinct). Name: Zarz±dzanie konfiguracj±
+ -  5617 ( 1779) words (distinct). Name: Wprowadzenie do testowania
+ -  8144 ( 2070) words (distinct). Name: Automatyzacja wykonywania testów
+ -  4646 ( 1508) words (distinct). Name: Programowanie Ekstremalne
+ -  4508 ( 1595) words (distinct). Name: Ewolucja oprogramowania i refaktoryzacja
+* Systemy wbudowane
+ -  6301 ( 2036) words (distinct). Name: Wyk³ad 1: Podstawy sterowania i regulacji
+ -  5318 ( 1755) words (distinct). Name: Wyk³ad 2: Regulacja ci±g³a i dyskretna
+ -  3461 ( 1280) words (distinct). Name: Wyk³ad 3: Komputer jako urz±dzenie steruj±ce
+ -  2150 (  762) words (distinct). Name: Wyk³ad 4: Kana³ automatyki - uk³ady wyj¶ciowe
+ -  2966 ( 1034) words (distinct). Name: Wyk³ad 5: Kana³ automatyki - uk³ady wej¶ciowe
+ -  3149 ( 1204) words (distinct). Name: Wyk³ad 6: Oprogramowanie komputerowych systemów sterowania
+ -  3238 (  714) words (distinct). Name: Wyk³ad 7: Sterowniki PLC
+ -  4375 ( 1527) words (distinct). Name: Wyk³ad 8: Mikrokontrolery - podstawowe architektury
+ -  2155 (  766) words (distinct). Name: Wyk³ad 9: Systemy uruchomieniowe
+ -  4379 ( 1739) words (distinct). Name: Wyk³ad 10: Protoko³y w systemach wbudowanych
+ -  1446 (  659) words (distinct). Name: Wyk³ad 11: Metodyka projektowania komputerowych systemów sterowania
+ -  2852 ( 1345) words (distinct). Name: Wyk³ad 12: Przyk³ady inteligentnych systemów pomiarowych
+ -  3837 ( 1627) words (distinct). Name: Wyk³ad 13: Inteligentne systemy budynków
+* Problemy spo³eczne i zawodowe informatyki
+* Projekt zespo³owy
+* Jêzyk angielski 1
+* Jêzyk angielski 2
+* Jêzyk angielski 3
+* Jêzyk angielski 4
+* Logika i teoria mnogo¶ci
+ -  3035 (  912) words (distinct). Name: Po co nam teoria mnogo¶ci? Naiwna teoria mnogo¶ci, naiwna indukcja, naiwne dowody niewprost
+ -  5901 ( 1204) words (distinct). Name: Rachunek zdañ
+ -  4755 ( 1095) words (distinct). Name: Rachunek predykatów, przyk³ad teorii w rachunku predykatów
+ -  4557 ( 1118) words (distinct). Name: Teoria mnogo¶ci ZFC. Operacje na zbiorach
+ -  2780 (  741) words (distinct). Name: Para uporz±dkowana, iloczyn kartezjañski, relacje, domykanie relacji, relacja równowa¿no¶ci, rozk³ady zbiorów
+ -   306 (  178) words (distinct). Name: Iloczyn kartezjañski i aksjomat wyró¿niania (dla dociekliwych)
+ -  5154 (  956) words (distinct). Name: Funkcje, tw. o faktoryzacji, produkt uogólniony, obrazy i przeciwobrazy, tw. Knastera-Tarskiego i lemat Banacha
+ -  4076 (  804) words (distinct). Name: Konstrukcja von Neumanna liczb naturalnych, twierdzenie o indukcji, zasady minimum, maksimum, definiowanie przez indukcje
+ -  4049 ( 1005) words (distinct). Name: Konstrukcje liczbowe, liczby ca³kowite, wymierne, konstrukcja Cantora liczb rzeczywistych: dzia³ania i porz±dek
+ -  4638 ( 1069) words (distinct). Name: Teoria mocy twierdzenie Cantora-Bernsteina, twierdzenie Cantora. Zbiory przeliczalne, zbiory mocy continuum
+ -  3621 (  686) words (distinct). Name: Zbiory uporz±dkowane. Zbiory liniowo uporz±dkowane. Pojêcia gêsto¶ci i ci±g³o¶ci
+ -   453 (  222) words (distinct). Name: Twierdzenie Bourbakiego-Witta (dla dociekliwych)
+ -  3697 (  954) words (distinct). Name: Zbiory dobrze uporz±dkowane. Lemat Kuratowskiego Zorna i twierdzenie Zermelo, przyk³ady
+ -  5873 (  909) words (distinct). Name: Twierdzenie o indukcji. Liczby porz±dkowe. Zbiory liczb porz±dkowych. Twierdzenie o definiowaniu przez indukcjê pozaskoñczon±
+* ¦rodowisko programisty
+ -  2917 ( 1050) words (distinct). Name: Wprowadzenie do Basha
+ -  3586 ( 1123) words (distinct). Name: Bash - podstawowe komendy
+ -  2455 (  862) words (distinct). Name: Bash - pisanie skryptów
+ -  1951 (  736) words (distinct). Name: Wyra¿enia regularne
+ -  1832 (  680) words (distinct). Name: Bash - skrypty z³o¿one
+ -  7811 ( 1682) words (distinct). Name: Zarz±dzanie wersjami - Subversion
+ -  3588 ( 1385) words (distinct). Name: Sk³adanie dokumentów - Latex
+ -  2095 (  583) words (distinct). Name: Automatyzacja kompilacji - make
+* Metody programowania
+ -    32 (   26) words (distinct). Name: Æwiczenia rekursja
+ -  2696 ( 1036) words (distinct). Name: Listy
+ -  2404 (  934) words (distinct). Name: Drzewa
+ -  1602 (  548) words (distinct). Name: Stosy i kolejki
+* Jêzyki, automaty i obliczenia
+ -  1155 (  420) words (distinct). Name: S³owa, katenacja - elementy teorii pó³grup, pó³grupy i monoidy wolne
+ -  1318 (  607) words (distinct). Name: Gramatyka jako model obliczen. Hierarchia Chomsky'ego
+ -  2367 (  852) words (distinct). Name: Automat skoñczenie stanowy
+ -  2017 (  657) words (distinct). Name: Wyra¿enia regularne. Automat minimalny
+ -  1747 (  667) words (distinct). Name: Algorytmy konstrukcji automatu minimalnego
+ -  1552 (  617) words (distinct). Name: Automat niedeterministyczny. Lemat o pompowaniu
+ -  1497 (  538) words (distinct). Name: Twierdzenie Kleene'ego. W³asno¶ci jêzyków i gramatyk regularnych
+ -  2282 (  833) words (distinct). Name: Dalsze algorytmy dla jêzyków regularnych. Problemy rozstrzygalne
+ -  3000 (  861) words (distinct). Name: Jêzyki bezkontekstowe i ich gramatyki
+ -  1819 (  682) words (distinct). Name: Lemat o pompowaniu dla jêzyków bezkontekstowych. W³asno¶ci jêzyków bezkontekstowych. Problemy rozstrzygalne
+ -  1950 (  636) words (distinct). Name: Automat ze stosem
+ -  3264 ( 1091) words (distinct). Name: Jêzyki kontekstowe i automat liniowo ograniczony. Maszyna Turinga
+ -  1708 (  677) words (distinct). Name: Z³o¿ono¶æ obliczeniowa.
+ -  2429 (  903) words (distinct). Name: Jêzyki maszyn Turinga i typu (0). Rozstrzygalno¶æ
+* Podstawy fizyki
+ -  1211 (  746) words (distinct). Name: Modu³ 1. Przedmiot i metody badawcze fizyki
+ -  1024 (  465) words (distinct). Name: Modu³ 2. Zjawiska ruchu
+ -  2124 (  976) words (distinct). Name: Dynamika
+ -  1102 (  543) words (distinct). Name: Praca, energia i zasady zachowania
+ -  3786 ( 1224) words (distinct). Name: Drgania i fale
+ -  3609 ( 1325) words (distinct). Name: Zjawiska relatywistyczne
+ -  2356 (  893) words (distinct). Name: Podstawowe pojêcia termodynamiki
+ -  5794 ( 1639) words (distinct). Name: Zasady termodynamiki
+ -  2919 ( 1069) words (distinct). Name: Teoria kinetyczna
+ -  1847 (  764) words (distinct). Name: Termodynamika statystyczna
+ -  3636 ( 1048) words (distinct). Name: Pole elektryczne
+ -  1980 (  769) words (distinct). Name: Pr±d elektryczny
+ -  3042 ( 1003) words (distinct). Name: Zjawiska elektromagnetyczne
+ -  4058 ( 1444) words (distinct). Name: Fale elektromagnetyczne
+ -  4721 ( 1490) words (distinct). Name: Zjawiska falowe
+ -  2723 ( 1235) words (distinct). Name: Cz±stki i fale
+ -  1794 (  903) words (distinct). Name: Fizyka atomu
+ -  2351 ( 1100) words (distinct). Name: Fizyka j±dra atomowego
+ -   989 (  589) words (distinct). Name: Cz±stki elementarne
+* Podstawy elektrotechniki i elektroniki
+ -   761 (  429) words (distinct). Name: Wprowadzenie
+ -  2664 (  962) words (distinct). Name: Modu³ 1 - Podstawowe prawa obwodów elektrycznych
+ -  1755 (  720) words (distinct). Name: Modu³ 2 - Analiza obwodów w stanie ustalonym przy wymuszeniu sinusoidalnym
+ -  1409 (  566) words (distinct). Name: Modu³ 3 - Zagadnienie mocy w obwodzie RLC przy przebiegach sinusoidalnych
+ -  2241 (  733) words (distinct). Name: Modu³ 4 - Metody analizy z³o¿onych obwodów RLC w stanie ustalonym
+ -  2041 (  803) words (distinct). Name: Modu³ 5 - Obwody ze sprzê¿eniami magnetycznymi
+ -  2041 (  717) words (distinct). Name: Modu³ 6 - Uk³ady trójfazowe
+ -  2517 (  777) words (distinct). Name: Modu³ 7 - Metoda równan ró¿niczkowych w rozwi±zaniu stanu nieustalonego w obwodach elektrycznych
+ -  3401 ( 1125) words (distinct). Name: Modu³ 8 - Zastosowanie metody operatorowej Laplace'a w analizie stanów nieustalonych
+ -  2053 (  771) words (distinct). Name: Modu³ 9 - Transmitancja operatorowa i charakterystyki czêstotliwo¶ciowe obwodów
+ -  1956 (  646) words (distinct). Name: Modu³ 10 - Czwórniki
+ -  3290 ( 1198) words (distinct). Name: Modu³ 11 - Podstawy fizyczne dzia³ania elementów pó³przewodnikowych
+ -  6491 ( 1956) words (distinct). Name: Modu³ 12 - Podstawowe elementy pó³przewodnikowe
+ -  2025 (  854) words (distinct). Name: Modu³ 13 - Modele elementów pó³przewodnikowych
+ -  2483 (  793) words (distinct). Name: Modu³ 14 - Podstawowe topologie po³±czeñ elementów pó³przewodnikowych, stany pracy, punkt pracy
+* Uk³ady elektroniczne i technika pomiarowa
+ -    37 (   30) words (distinct). Name: Modu³ 1 - Wprowadzenie do przedmiotu
+ -  1869 (  683) words (distinct). Name: Modu³ 2 - Sprzê¿enie zwrotne
+ -    41 (   32) words (distinct). Name: Modu³ 3 - Wzmacniacze operacyjne
+ -  1161 (  548) words (distinct). Name: Modu³ 4 - Uk³ady analogowe ze wzmacniaczami operacyjnymi
+ -  1836 (  709) words (distinct). Name: Modu³ 5 - Pasywne i aktywne uk³ady 
+formowania sygna³ów elektrycznych
+ -  1313 (  647) words (distinct). Name: Modu³ 6 - Generatory sygna³ów sinusoidalnych i niesinusoidalnych
+ -  1956 (  833) words (distinct). Name: Modu³ 7 - Uk³ady zasilaj±ce
+ -  3324 ( 1431) words (distinct). Name: Modu³ 8 - Regulatory elektroniczne
+ -  1459 (  798) words (distinct). Name: Modu³ 9 - Wprowadzenie do techniki pomiarowej
+ -  3936 ( 1499) words (distinct). Name: Modu³ 10 - Przetwarzanie wielko¶ci elektrycznych
+ -  3515 ( 1485) words (distinct). Name: Modu³ 11 - Pomiary wielko¶ci elektrycznych
+ -  2566 ( 1098) words (distinct). Name: Modu³ 12 - Cyfrowe techniki pomiaru czêstotliwo¶ci i czasu oraz elementy syntezy sygna³ów
+ -  2370 ( 1054) words (distinct). Name: Modu³ 13 - Metody i przyrz±dy do analizy sygna³ów
+* Technika cyfrowa
+ -  1618 (  898) words (distinct). Name: Modu³ 1 - Rola i znaczenie techniki cyfrowej we wspó³czesnej informatyce
+ -   804 (  454) words (distinct). Name: Modu³ 2 - Uk³ady logiczne ? pojêcia podstawowe
+ -   646 (  371) words (distinct). Name: Modu³ 3 - Minimalizacja funkcji boolowskich metod± tablic Karnaugha
+ -  1113 (  553) words (distinct). Name: Modu³ 4 - Minimalizacja funkcji boolowskich metod± ekspansji
+ -  1123 (  524) words (distinct). Name: Modu³ 5 - Redukcja argumentów
+ -  1699 (  750) words (distinct). Name: Modu³ 6 - Dekompozycja funkcji boolowskich
+ -  1570 (  639) words (distinct). Name: Modu³ 7 - Uk³ady synchroniczne
+ -  1244 (  527) words (distinct). Name: Modu³ 8 - Minimalizacja liczby stanów automatu
+ -  1385 (  609) words (distinct). Name: Modu³ 9 - Uk³ady asynchroniczne
+ -  1291 (  624) words (distinct). Name: Modu³ 10 - Uk³ady cyfrowe cz. 1
+ -  1577 (  691) words (distinct). Name: Modu³ 11 - Uk³ady cyfrowe cz. 2
+ -  1713 (  862) words (distinct). Name: Modu³ 12 - Projektowanie uk³adów cyfrowych cz. 1
+ -  2131 (  944) words (distinct). Name: Modu³ 13 - Projektowanie uk³adów cyfrowych cz. 2
+ -  1451 (  737) words (distinct). Name: Modu³ 14 - Zaawansowane procedury syntezy logicznej
+ -  2511 ( 1142) words (distinct). Name: Modu³ 15 - Zaawansowane metody syntezy logicznej w projektowaniu uk³adów cyfrowych w strukturach programowalnych
+* Przetwarzanie sygna³ów
+ -  1985 (  728) words (distinct). Name: Modu³ 1 - Pojêcie sygna³u
+ -  1392 (  689) words (distinct). Name: Modu³ 2 - Przestrzenie sygna³ów
+ -  1092 (  479) words (distinct). Name: Modu³ 3 - Analiza czêstotliwo¶ciowa sygna³ów analogowych
+ -   898 (  430) words (distinct). Name: Modu³ 4 - Analiza czêstotliwo¶ciowa sygna³ów dyskretnych
+ -  1048 (  513) words (distinct). Name: Modu³ 5 - Praktyczne aspekty obiczania DTF
+ -  1408 (  488) words (distinct). Name: Modu³ 6 - Analiza korelacyjna sygna³ów
+ -  1612 (  715) words (distinct). Name: Modu³ 7 - Ogólne zasady przetwarzania analogowo-cyfrowego sygna³ów
+ -  1359 (  609) words (distinct). Name: Modu³ 8 - Przetwarzanie sygna³ów przez uk³ady LS
+ -  1505 (  726) words (distinct). Name: Modu³ 9 - Modulacja sygna³ów. Wprowadzenie
+ -  1683 (  679) words (distinct). Name: Modu³ 10 - Modulacje k±ta PM i FM
+ -  2050 (  868) words (distinct). Name: Modu³ 11 - Modulacje impulsowe
+ -  1454 (  621) words (distinct). Name: Modu³ 12 - Modulacje cyfrowe
+* Techniki transmisji sygna³ów
+ -  2161 ( 1141) words (distinct). Name: Modu³ 1 - Technika transmisji sygna³u - Wprowadzenie (Wyk³ad)
+ -  5151 ( 1508) words (distinct). Name: Modu³ 2 - Fala elektromagnetyczna w wolnej przestrzeni (Wyk³ad, S³ownik, Bibliografia)
+ - 10319 ( 2293) words (distinct). Name: Modu³ 3 - Prowadnice falowe pasm radiowych i mikrofalowych (Wyk³ad, Pytania sprawdzajace, S³ownik, Bibliografia)
+ -  4023 ( 1506) words (distinct). Name: Modu³ 4 - ¦wiat³owody - prowadnice sygna³ów optycznych (Wyk³ad, Pytania sprawdzajace, Test, S³ownik, Bibliografia)
+ -  6775 ( 1804) words (distinct). Name: Modu³ 5 - Teoria propagacji w linii d³ugiej (Wyk³ad, Æwiczenia, Pytania sprawdzajace, Zadania problemowe, S³ownik, Bibliografia)
+ -  6571 ( 2196) words (distinct). Name: Modu³ 6 - Elementy torów mikrofalowych i optycznych (Wyk³ad, Æwiczenia, Pytania sprawdzajace, S³ownik, Bibliografia)
+ -  4420 ( 1631) words (distinct). Name: Modu³ 7 - Wzmacnianie sygna³ów mikrofalowych (Wyk³ad, Æwiczenia, Pytania sprawdzajace, S³ownik, Bibliografia)
+ -  4052 ( 1481) words (distinct). Name: Modu³ 8 - Generacja, modulacja i demodulacja sygna³ów mikrofalowych ( Wyk³ad, Pytania sprawdzajace, S³ownik, Bibliografia)
+ -  3538 ( 1401) words (distinct). Name: Modu³ 9 - £±cza mikrofalowe i systemy telekomunikacyjne (Wyk³ad, Pytania sprawdzajace, S³ownik, Bibliografia)
+ -  5114 ( 1720) words (distinct). Name: Modu³ 10 - Lasery telekomunikacyjne, modulatory i nadajniki optyczne (Wyk³ad, Pytania sprawdzaj±ce, S³ownik, Bibliografia)
+ -  3230 ( 1283) words (distinct). Name: Modu³ 11 - Wzmacniacze, fotodetektory i odbiorniki optyczne (Wyk³ad, Pytania sprawdzajace, S³ownik, Bibliografia)
+ -  3927 ( 1623) words (distinct). Name: Modu³ 12 - £±cza optyczne i techniki multipleksacji (Wyk³ad, Æwiczenia, Pytania sprawdzajace, S³ownik, Bibliografia)
+ -  2505 ( 1133) words (distinct). Name: Modu³ 13 - £±cza optyczne wolnej przestrzeni (Wyk³ad, Pytania sprawdzajace, S³ownik, Bibliografia)
+ -  2590 ( 1068) words (distinct). Name: Modu³ 14 - Systemy radiowo-¶wiat³owodowe (Wyk³ad, Pytania sprawdzajace, S³ownik, Bibliografia)
+* Laboratorium wirtualne 1
+ -  2539 ( 1133) words (distinct). Name: (modu³ 1) Æwiczenie 1 - ¦rodowisko programistyczne LabVIEW
+ -    62 (   39) words (distinct). Name: (modu³ 2) Æwiczenie 2 - ¦rodowisko programistyczne LabWindows/CVI
+ -  2524 ( 1004) words (distinct). Name: (modu³ 3) Æwiczenie 3 - Projekt wirtualnego oscyloskopu cyfrowego w ¶rodowisku LabWindows/CVI
+ -  1952 (  895) words (distinct). Name: (modu³ 4) Æwiczenie 4 - Wirtualny analizator widma
+ -  3019 ( 1255) words (distinct). Name: (modu³ 5) Æwiczenie 5 - Analiza czasowo-czêstotliwo¶ciowa sygna³ów
+* Laboratorium wirtualne 2
+ -  1725 (  896) words (distinct). Name: (modu³ 1) Æwiczenie 1 - Zdalne pomiary temperatury
+ -  2987 ( 1186) words (distinct). Name: (modu³ 2) Æwiczenie 2 - System pomiarowy do wyznaczania charakterystyk uk³adów aktywnych
+ -   546 (  332) words (distinct). Name: (modu³ 3) Æwiczenie 3 - System do automatycznego badania przetworników analogowo-cyfrowych
+ -    36 (   32) words (distinct). Name: (modu³ 4) Æwiczenie 4 - Stanowisko do badania uk³adów rezonansowych
+ -  2013 ( 1000) words (distinct). Name: (modu³ 5) Æwiczenie 5 - Aplikacje rozproszone w systemie operacyjnym Linux
+* Sztuczna inteligencja
+ -  2985 ( 1326) words (distinct). Name: O czym jest ten przedmiot
+ -  4253 ( 1332) words (distinct). Name: Od logiki do wnioskowania
+ -  2870 (  959) words (distinct). Name: Wnioskowanie w PROLOG-u
+ -  2613 (  995) words (distinct). Name: Wnioskowanie na podstawie wiedzy niepewnej i niepe³nej
+ -  2094 (  839) words (distinct). Name: Wnioskowanie jako metoda przeszukiwania
+ -  2823 (  950) words (distinct). Name: Strategie przeszukiwania z funkcj± oceny
+ -  1514 (  636) words (distinct). Name: Metody przeszukiwania losowego
+ -  3694 ( 1260) words (distinct). Name: Gry dwuosobowe
+ -  1942 (  802) words (distinct). Name: Wnioskowanie indukcyjne
+ -  3402 ( 1345) words (distinct). Name: Zadanie i metody klasyfikacji
+ -  2037 (  826) words (distinct). Name: Zadanie i metody regresji
+ -  1772 (  809) words (distinct). Name: Sieci neuronowe
+ -  3208 ( 1223) words (distinct). Name: Uczenie siê ze wzmocnieniem
+* Zarz±dzanie zasobami ludzkimi
+ -  3838 ( 1793) words (distinct). Name: Wyk³ad 1 - Wstêp do zarz±dzania zasobami ludzkimi
+ -  4728 ( 2051) words (distinct). Name: Wyk³ad 2 - Zachowania organizacyjne ? budowanie zespo³ów i grup
+ -  4294 ( 1903) words (distinct). Name: Wyk³ad 3 - Zachowania organizacyjne
+ -  6688 ( 2780) words (distinct). Name: Wyk³ad 4 - Umiejêtno¶ci interpersonalne
+ -  6116 ( 2568) words (distinct). Name: Wyk³ad 5 - Skuteczna komunikacja
+ -  6147 ( 2564) words (distinct). Name: Wyk³ad 6 - Komunikacja w organizacji
+ -  6898 ( 2602) words (distinct). Name: Wyk³ad 7 - Motywowanie w teorii i praktyce 1
+ -  5785 ( 2267) words (distinct). Name: Wyk³ad 8 - Motywowanie w teorii i praktyce 2
+ -  5887 ( 2307) words (distinct). Name: Wyk³ad 9 - Przywództwo
+ -  4528 ( 1857) words (distinct). Name: Wyk³ad 10 - Zarz±dzanie potencja³em spo³ecznym organizacji
+ -  7799 ( 3098) words (distinct). Name: Wyk³ad 11 - Wybrane narzêdzia rekrutacji
+ -  6163 ( 2368) words (distinct). Name: Wyk³ad 12 - Rozwój i ocena potencja³u spo³ecznego organizacji
+ -   966 (  464) words (distinct). Name: Bibliografia
+* Podstawy kompilatorów
+ -  5133 ( 1660) words (distinct). Name: Wyk³ad 1: Podstawy kompilatorów. Wprowadzenie do przedmiotu
+ -  5383 ( 1267) words (distinct). Name: Wyk³ad 2: Podstawy kompilatorów. Analiza leksykalna
+ -  4118 ( 1153) words (distinct). Name: Wyk³ad 3: Podstawy kompilatorów. Implementacja analizatorów leksykalnych
+ -  3210 (  828) words (distinct). Name: Wyk³ad 4: Podstawy kompilatorów. Wstêp do analizy sk³adniowej
+ -  3775 (  922) words (distinct). Name: Wyk³ad 5: Podstawy kompilatorów. Analiza metod± zstêpuj±c±
+ -  4347 ( 1237) words (distinct). Name: Wyk³ad 6: Podstawy kompilatorów. Generowanie analizatorów dzia³aj±cych metod± zstêpuj±c±
+ -  4158 ( 1052) words (distinct). Name: Wyk³ad 7: Podstawy kompilatorów. Translacja sterowana sk³adni± w metodzie zstêpuj±cej
+ -  6231 ( 1090) words (distinct). Name: Wyk³ad 8: Podstawy kompilatorów. Analiza metod± wstêpuj±c±
+ -  2906 (  902) words (distinct). Name: Wyk³ad 9: Podstawy kompilatorów. Podstawy generaratora YACC
+ -  6836 ( 1544) words (distinct). Name: Wyk³ad 10: Podstawy kompilatorów. Translacja sterowana sk³adni± w generatorze YACC
+ -  4191 ( 1212) words (distinct). Name: Wyk³ad 11: Podstawy kompilatorów. Generator YACC : gramatyki niejednoznaczne
+ -  4517 ( 1371) words (distinct). Name: Wyk³ad 12: Podstawy kompilatorów. Analiza zale¿no¶ci kontekstowych
+ -  5675 ( 1763) words (distinct). Name: Wyk³ad 13: Podstawy kompilatorów. Synteza kodu i ¶rodowisko czasu wykonania
+* Analiza matematyczna 2
+ -  2492 (  711) words (distinct). Name: Przestrzenie metryczne
+ -  2865 (  694) words (distinct). Name: Ci±gi w przestrzeniach metrycznych
+ -  1584 (  523) words (distinct). Name: Norma. Iloczyn skalarny
+ -  2078 (  593) words (distinct). Name: Ci±gi i szeregi funkcyjne. Szereg Taylora
+ -  1927 (  570) words (distinct). Name: Szereg potêgowy. Trygonometryczny szereg Fouriera
+ -  3205 ( 1063) words (distinct). Name: Ci±g³o¶æ funkcji wielu zmiennych. Pochodne cz±stkowe. Gradient
+ -  2886 (  801) words (distinct). Name: Ró¿niczka. Ró¿niczki wy¿szych rzêdów. Wzór Taylora
+ -  2096 (  568) words (distinct). Name: Ekstrema funkcji wielu zmiennych
+ -  2598 (  717) words (distinct). Name: Twierdzenie o funkcjach uwik³anych. Ekstrema warunkowe
+ -  1724 (  580) words (distinct). Name: Wielowymiarowa ca³ka Riemanna
+ -  1697 (  578) words (distinct). Name: Twierdzenie Fubiniego. Twierdzenie o zmianie zmiennych
+ -  1695 (  567) words (distinct). Name: Ca³ka krzwoliniowa. Twierdzenie Greena
+ -  2913 ( 1019) words (distinct). Name: Równania ró¿niczkowe zwyczajne
+ -  2081 (  576) words (distinct). Name: Przegl±d metod ca³kowania równañ ró¿niczkowych zwyczajnych
+ -  1678 (  712) words (distinct). Name: Zastosowania równañ ró¿niczkowych. Elementy rachunku wariacyjnego
+* Matematyka dyskretna 2
+ -  1252 (  428) words (distinct). Name: Zagadnienia Mini-Maksowe w grafach
+ -  1204 (  491) words (distinct). Name: Porz±dki Czê¶ciowe i twierdzenie Dilworth'a
+ -  1200 (  467) words (distinct). Name: W³asno¶ci podzia³owe i Twierdzenie Ramsey'a
+ -  2229 (  718) words (distinct). Name: Elementy teorii grup
+ -  1306 (  474) words (distinct). Name: Zastosowania teorii grup w zliczaniu
+ -  3748 (  998) words (distinct). Name: Cia³a skoñczone
+ -  3425 ( 1198) words (distinct). Name: Zastosowanie teorii liczb w kryptografii
+* Metody realizacji jêzyków programowania
+ -   554 (  385) words (distinct). Name: Wstêp
+ -  1724 (  752) words (distinct). Name: Tablica symboli
+ -  3475 ( 1133) words (distinct). Name: Statyczna analiza semantyczna
+ -  3950 ( 1314) words (distinct). Name: Maszyna wirtualna I
+ -  3396 (  903) words (distinct). Name: Maszyna wirtualna II
+ -  3129 ( 1267) words (distinct). Name: Generowanie kodu po¶redniego
+ -  1461 (  641) words (distinct). Name: Sprowadzanie kodu do postaci SSA
+ -  1382 (  530) words (distinct). Name: Optymalizacja kodu po¶redniego w postaci SSA
+ -  6352 ( 2125) words (distinct). Name: Zarz±dzanie pamiêci±. Od¶miecanie
+ -   975 (  472) words (distinct). Name: Realizacja obs³ugi sygna³ów/wyj±tków
+ -   959 (  456) words (distinct). Name: Optymalizacja II
+ -  1651 (  740) words (distinct). Name: Kompilacja jêzyków programowania funkcyjnego
+ -  2054 (  827) words (distinct). Name: Realizacja obiektów aktywnych (w±tków, procesów) w jezyku z procesami wspó³bie¿nymi i rozproszonymi
+* Z³o¿ono¶æ obliczeniowa
+ -  5231 ( 1595) words (distinct). Name: Obliczenia w modelu maszyny Turinga
+ -  4612 ( 1455) words (distinct). Name: Inne modele dla z³o¿no¶ci
+ -  3167 ( 1054) words (distinct). Name: Klasy z³o¿ono¶ci obliczeniowej
+ -  4739 ( 1465) words (distinct). Name: Redukcje i zupe³no¶æ
+ -  4550 ( 1421) words (distinct). Name: Problemy NP-zupe³ne
+ -  4594 ( 1489) words (distinct). Name: NP-zupe³no¶æ jako narzêdzie analizy problemu
+ -  4525 ( 1355) words (distinct). Name: Algorytmy aproksymacyjne
+ -  4815 ( 1371) words (distinct). Name: Schematy aproksymacji i klasa MAXSNP
+ -  4801 ( 1327) words (distinct). Name: Twierdzenie PCP i nieaproksymowalno¶æ
+ -  3600 ( 1222) words (distinct). Name: Algorytmy probabilistyczne
+ -  4087 ( 1464) words (distinct). Name: Obliczenia równoleg³e
+ -  3522 ( 1126) words (distinct). Name: Problemy funkcyjne i z³o¿ono¶æ zliczania
+ -  3969 ( 1218) words (distinct). Name: Pamiêæ logarytmiczna i hierarchia wielomianowa
+ -  3019 ( 1076) words (distinct). Name: Pamiêæ wielomianowa i z³o¿ono¶æ wyk³adnicza
+ -  5342 ( 1538) words (distinct). Name: Kryptografia a z³o¿ono¶æ
+* Logika dla informatyków
+* Programowanie wspó³bie¿ne i rozproszone
+ -  4012 ( 1426) words (distinct). Name: Wprowadzenie do programowania wspó³bie¿nego
+ -  4300 ( 1350) words (distinct). Name: Komunikacja asynchroniczna w modelu rozproszonym
+ -  1883 (  679) words (distinct). Name: Linda
+ -  2329 (  816) words (distinct). Name: Komunikacja synchroniczna na przyk³adzie Ady
+ -  2581 (  873) words (distinct). Name: Communicating Sequential Processes
+ -  1149 (  443) words (distinct). Name: CSP cd.
+ -  1512 (  547) words (distinct). Name: Rozproszony algorytm uzgadniania
+ -  2896 (  906) words (distinct). Name: Mechanizmy scentralizowane. Semafory
+ -  1679 (  607) words (distinct). Name: Semafory cd.
+ -  1955 (  709) words (distinct). Name: Monitory
+ -  1136 (  450) words (distinct). Name: Specyfikowanie i weryfikacja w³asno¶ci programów wspó³bie¿nych. CTL
+* Metody optymalizacji
+ -   521 (  348) words (distinct). Name: Przyk³ady zadañ optymalizacji; Klasyfikacje zadañ optymalizacji
+ -   623 (  389) words (distinct). Name: Wprowadzenie do metod rozwi±zywania zadañ optymalizacji statycznej
+ -   274 (  188) words (distinct). Name: Podstawowe w³asno¶ci zadania programowania liniowego; metoda SIMPLEX
+ -   462 (  323) words (distinct). Name: Podstawy matematycznej analizy nieliniowych zadañ optymalizacji statycznej
+ -  1615 (  777) words (distinct). Name: Podstawy metod optymalizacji bez ograniczeñ
+ -    15 (   15) words (distinct). Name: Metody rozwi±zywania zadania poprawy
+ -   911 (  473) words (distinct). Name: Gradientowe algorytmy rozwiazywania zadañ optymalizacji bez ograniczeñ
+ -    15 (   15) words (distinct). Name: Wp³yw ograniczeñ na rozwi±zanie zadañ optymalizacji. Analiza matematyczna zadañ optymalizacji z ograniczeniami
+ -    15 (   15) words (distinct). Name: Metody i algorytmy rozwi±zywania zadañ optymalizacji z ograniczeniami
+ -   238 (  164) words (distinct). Name: Elementy programowania wielokryterialnego
+* Zaawansowane systemy baz danych
+ -  1384 (  570) words (distinct). Name: Informacja o autorach kursu
+ -   641 (  354) words (distinct). Name: Literatura do przedmiotu ZSBD
+ -  2460 (  763) words (distinct). Name: Wyk³ad 1: Systemy rozproszonych baz danych ? 1. Podstawowe problemy rozproszonych baz danych
+ -  4154 ( 1086) words (distinct). Name: Wyk³ad 2: Systemy rozproszonych baz danych ? 2. Fragmentacja, replikacja, zarz±dzanie transakcjami
+ -  5046 ( 1489) words (distinct). Name: Wyk³ad 3: Aktywne bazy danych
+ -  4572 ( 1418) words (distinct). Name: Wyk³ad 4: Obiektowe bazy danych ? 1. Obiektowy model danych
+ -  3853 ( 1124) words (distinct). Name: Wyk³ad 5: Obiektowe bazy danych ? Obiektowe 
+i obiektowo-relacyjne bazy danych
+ -  4857 ( 1482) words (distinct). Name: Wyk³ad 6: Obiektowe bazy danych ? Implementacja 
+obiektowych baz danych
+ -  6360 ( 1946) words (distinct). Name: Wyk³ad 7: Multimedialne bazy danych - 1
+ -  6360 ( 1946) words (distinct). Name: Wyk³ad 8: Multimedialne bazy danych - 2. Standard SQL/MM
+ -  4834 ( 1314) words (distinct). Name: Wyk³ad 9: Bazy danych dokumentów XML ? 1. Wprowadzenie
+ -   220 (  146) words (distinct). Name: Wyk³ad 10: Bazy danych dokumentów XML ? 2. XQuery
+ -  4813 ( 1206) words (distinct). Name: Wyk³ad 11: Bazy danych dokumentów XML ? 3. Modyfikacja dokumentów
+ -  2568 (  868) words (distinct). Name: Wyk³ad 12: Hurtownie danych ? 1. Architektury i projektowanie
+ -  3590 ( 1093) words (distinct). Name: Wyk³ad 13: Hurtownie danych ? 2. Zagadnienia implementacyjne i efektywno¶æ przetwarzania OLAP
+* Zaawansowana in¿ynieria oprogramowania
+ -  8556 ( 2195) words (distinct). Name: Standardy serii ISO 9000
+ -  1037 (  519) words (distinct). Name: [1]
+ -   635 (  229) words (distinct). Name: [2]
+ -  5305 ( 1409) words (distinct). Name: Model dojrza³o¶ci CMMI
+ -  8148 ( 2070) words (distinct). Name: Personal Software Process, cz. I
+ -  8601 ( 1592) words (distinct). Name: Personal Software Process, cz. II
+ -  3853 ( 1294) words (distinct). Name: Pozyskiwanie i dokumentowanie wymagañ
+ -  5989 ( 2166) words (distinct). Name: Wymagania pozafunkcyjne i ISO 9126
+ -  6336 ( 2101) words (distinct). Name: Zarz±dzanie ryzykiem
+ -  4672 ( 1524) words (distinct). Name: Systemy krytyczne i HAZOP
+ -  3983 ( 1225) words (distinct). Name: Szacowanie rozmiaru oprogramowania
+ -  6462 ( 1820) words (distinct). Name: Szacowanie pracoch³onno¶ci
+* Systemy rozproszone
+ -  5705 ( 1896) words (distinct). Name: Wstêp
+ -  6174 ( 1872) words (distinct). Name: Komunikacja
+ -  4962 ( 1376) words (distinct). Name: Komunikacja grupowa
+ -  8084 ( 2331) words (distinct). Name: Procesy
+ -  7221 ( 2071) words (distinct). Name: Nazewnictwo
+ -  6848 ( 1993) words (distinct). Name: Synchronizacja zegarów i rozproszone transakcje
+ -  6354 ( 1472) words (distinct). Name: Elekcja, wzajemne wykluczanie i zakleszczenie
+ -  4478 ( 1436) words (distinct). Name: Zwielokrotnianie i spójno¶æ
+ -  6567 ( 1626) words (distinct). Name: Modele spójno¶ci
+ -  6595 ( 1781) words (distinct). Name: Modele spójno¶ci nastawione na klienta
+ -  7069 ( 2061) words (distinct). Name: Niezawodne systemy rozproszone
+ -  5022 ( 1583) words (distinct). Name: Systemy rozproszone oparte na obiektach
+ -  8111 ( 2045) words (distinct). Name: Rozproszone systemy plików
+ -  7880 ( 2283) words (distinct). Name: LDAP
+* Przetwarzanie rozproszone
+ -  1230 (  588) words (distinct). Name: Informacja o autorach kursu
+ -   157 (  114) words (distinct). Name: Literatura do przedmiotu PR
+* CAD w grafice in¿ynierskiej
+ -  2615 ( 1022) words (distinct). Name: Modu³ 1
+ -  1432 (  449) words (distinct). Name: Modu³ 2
+ -  2396 (  618) words (distinct). Name: Modu³ 3
+ -  2162 (  679) words (distinct). Name: Modu³ 4
+ -  1485 (  492) words (distinct). Name: Modu³ 5
+ -  2924 ( 1186) words (distinct). Name: Modu³ 6
+ -  5188 ( 1525) words (distinct). Name: Modu³ 7
+ -  3801 ( 1204) words (distinct). Name: Modu³ 8
+ -  6414 ( 1580) words (distinct). Name: Modu³ 9
+ -  4747 ( 1359) words (distinct). Name: Modu³ 10
+ -  9622 ( 2431) words (distinct). Name: Modu³ 11
+ - 13650 ( 2929) words (distinct). Name: Modu³ 12
+* Semantyka i weryfikacja programów
+ -    53 (   49) words (distinct). Name: Wyk³ad 1. Wprowadzenie
+ -    74 (   60) words (distinct). Name: Wyk³ad 2. Semantyka operacyjna
+ -    75 (   48) words (distinct). Name: Wyk³ad 3. Semantyka naturalna
+ -    76 (   49) words (distinct). Name: Wyk³ad 4. Semantyka denotacyjna. While programy
+ -    61 (   47) words (distinct). Name: Wyk³ad 5. Semantyka denotacyjna. Bloki i deklaracje
+ -    65 (   46) words (distinct). Name: Wyk³ad 6. Semantyka denotacyjna. Przekazywanie parametrów. Wej¶cie/wyj¶cie
+ -    61 (   44) words (distinct). Name: Wyk³ad 7. Semantyka denotacyjna. Kontynuacje
+ -    47 (   46) words (distinct). Name: Wyk³ad 8. Punkty sta³e w porz±dkach zupe³nych
+ -    70 (   55) words (distinct). Name: Wyk³ad 9. Elementy teorii dziedzin
+ -    70 (   54) words (distinct). Name: Wyk³ad 10. Logika Hoare'a. Poprawno¶æ czê¶ciowa
+ -    63 (   48) words (distinct). Name: Wyk³ad 11. Poprawno¶æ i relatywna pe³no¶æ logiki Hoare'a
+ -    88 (   62) words (distinct). Name: Wyk³ad 12. Poprawno¶æ ca³kowita
+ -    73 (   48) words (distinct). Name: Wyk³ad 13. Wyprowadzanie poprawnych programów
+ -    44 (   43) words (distinct). Name: Wyk³ad 14. Systematyczne konstruowanie modularnych programów
+* Zaawansowane projektowanie obiektowe
+ -  5190 ( 1558) words (distinct). Name: wiki
+ -  4095 ( 1285) words (distinct). Name: wiki
+ -  5171 ( 1621) words (distinct). Name: wiki
+ -  5582 ( 1600) words (distinct). Name: wiki
+ -  4686 ( 1518) words (distinct). Name: wiki
+ -  4611 ( 1355) words (distinct). Name: wiki
+ -  3824 ( 1234) words (distinct). Name: wiki
+ -  5818 ( 1935) words (distinct). Name: wiki
+ -  4637 ( 1287) words (distinct). Name: wiki
+ -  4775 ( 1349) words (distinct). Name: wiki
+ -  5640 ( 1433) words (distinct). Name: wiki
+ -  5178 ( 1642) words (distinct). Name: wiki
+ -  4748 ( 1506) words (distinct). Name: wiki
+* Teoria kategorii dla informatyków
+ -  2210 (  916) words (distinct). Name: Teoria kategorii jako abstrakcyjna teoria funkcji
+ -  1654 (  624) words (distinct). Name: Morfizmy specjalne
+ -  1802 (  707) words (distinct). Name: Zasada dualno¶ci i proste konstrukcje uniwersalne
+ -  1353 (  619) words (distinct). Name: Zaawansowane konstrukcje uniwersalne
+ -  1310 (  589) words (distinct). Name: Funktory i transformacje naturalne
+ -  1761 (  662) words (distinct). Name: Równowa¿no¶æ kategorii
+ -  1112 (  486) words (distinct). Name: Lemat Yonedy i funktory reprezentowalne
+ -  1266 (  504) words (distinct). Name: Diagramy, granice i kogranice
+ -  1160 (  540) words (distinct). Name: Sprzê¿enia I
+ -  1387 (  555) words (distinct). Name: Sprzê¿enia II
+ -   994 (  501) words (distinct). Name: Monady
+ -  2775 (  769) words (distinct). Name: Teoria dziedzin I
+ -  2456 (  962) words (distinct). Name: Teoria dziedzin II
+ -  1022 (  430) words (distinct). Name: Teoria dziedzin III
+ -  2290 (  903) words (distinct). Name: Algebry i koalgebry endofunktorów
+* Zaawansowane aplikacje internetowe
+ -  4559 ( 1490) words (distinct). Name: WIKI
+ -  3567 (  948) words (distinct). Name: WIKI
+ -  5447 ( 1751) words (distinct). Name: WIKI
+ -  4495 ( 1229) words (distinct). Name: WIKI
+ -  5933 ( 1488) words (distinct). Name: WIKI
+ -  1863 (  700) words (distinct). Name: WIKI
+ -  1987 (  211) words (distinct). Name: WIKI
+ -  4691 ( 1454) words (distinct). Name: WIKI
+ -  3034 ( 1268) words (distinct). Name: WIKI
+ -  4039 ( 1338) words (distinct). Name: WIKI
+ -  6987 ( 1897) words (distinct). Name: WIKI
+ -  5822 ( 1775) words (distinct). Name: WIKI
+ -  6107 ( 1856) words (distinct). Name: WIKI
+* Eksploracja danych
+ -  3967 ( 1365) words (distinct). Name: WIKI
+ -  3131 (  971) words (distinct). Name: WIKI
+ -  4254 (  883) words (distinct). Name: WIKI
+ -  5058 ( 1363) words (distinct). Name: WIKI
+ -  4507 ( 1043) words (distinct). Name: WIKI
+ -  4293 ( 1054) words (distinct). Name: WIKI
+ -  3264 ( 1039) words (distinct). Name: WIKI
+ -  4695 (  926) words (distinct). Name: WIKI
+ -  4080 ( 1079) words (distinct). Name: WIKI
+ -  4052 ( 1037) words (distinct). Name: WIKI
+ -  4102 ( 1121) words (distinct). Name: WIKI
+ -  3929 ( 1145) words (distinct). Name: WIKI
+ -  4354 ( 1277) words (distinct). Name: WIKI
+ -  4685 ( 1180) words (distinct). Name: WIKI
+* Programowanie funkcyjne
+ -  1489 (  704) words (distinct). Name: Wstêp ? porównanie programowania funkcyjnego i imperatywnego
+ -  2515 (  843) words (distinct). Name: Podstawy jêzyka programowania Ocaml
+ -  3874 ( 1005) words (distinct). Name: Podstawowe typy danych
+ -  1946 (  635) words (distinct). Name: Procedury wy¿szych rzêdów
+ -  1595 (  505) words (distinct). Name: Procedury wy¿szych rzêdów i listy
+ -  1734 (  687) words (distinct). Name: Model obliczeñ
+ -  2855 ( 1029) words (distinct). Name: Programowanie imperatywne
+ -  1802 (  647) words (distinct). Name: Modu³y
+ -  1096 (  412) words (distinct). Name: Funktory
+ -  1709 (  669) words (distinct). Name: Techniki uleniwiania i spamiêtywania
+ -  1981 (  659) words (distinct). Name: Procedury jeszcze wy¿szych rzêdów
+ -  1873 (  677) words (distinct). Name: System typów
+ -  3693 ( 1110) words (distinct). Name: Strumienie
+ -  1883 (  659) words (distinct). Name: Scheme
+* Zaawansowane algorytmy i struktury danych
+ -  1788 (  684) words (distinct). Name: Zaawansowane algorytmy tekstowe I
+ -  1471 (  616) words (distinct). Name: Zaawansowane algorytmy tekstowe II
+ -  1346 (  555) words (distinct). Name: Zaawansowane algorytmy tekstowe III
+ -   979 (  430) words (distinct). Name: Wielomiany i FFT
+ -  1084 (  412) words (distinct). Name: Zaawansowane algorytmy grafowe I: Najkrótsze ¶cie¿ki
+ -  1538 (  505) words (distinct). Name: Zaawansowane algorytmy grafowe II: Najkrótsze ¶cie¿ki
+ -  1438 (  487) words (distinct). Name: Zaawansowane algorytmy grafowe III: Skojarzenia w grafach dwudzielnych
+ -  1329 (  546) words (distinct). Name: Zaawansowane algorytmy grafowe IV: Skojarzenia w grafach dowolnych
+ -  1324 (  455) words (distinct). Name: Zaawansowane algorytmy grafowe V: Maksymalny przep³yw I
+ -  1526 (  559) words (distinct). Name: Zaawansowane algorytmy grafowe VI: Maksymalny przep³yw II
+ -  1700 (  633) words (distinct). Name: Algorytmy geometryczne I
+ -  1316 (  517) words (distinct). Name: Algorytmy geometryczne II
+ -  1723 (  733) words (distinct). Name: Algorytmy równoleg³e I
+ -  1515 (  663) words (distinct). Name: Algorytmy równoleg³e II
+ -  1967 (  838) words (distinct). Name: Algorytmy randomizowane
+* Teoria informacji
+ -  1526 (  753) words (distinct). Name: Notacja i kody
+ -   837 (  412) words (distinct). Name: Pojêcie entropii
+ -   675 (  385) words (distinct). Name: Optymalne kodowanie - kod Huffmana
+ -   232 (  145) words (distinct). Name: Optymalne kodowanie - kod Shannona-Fano
+ -   629 (  324) words (distinct). Name: Entropia zmiennej losowej i wzajemna informacja
+ -  1117 (  578) words (distinct). Name: Doskonale bezpieczne szyfrowanie
+ -   594 (  329) words (distinct). Name: Kana³y transmisji i ich przepustowo¶æ
+ -   542 (  316) words (distinct). Name: Odczytywanie przes³anej wiadomo¶ci
+ -   355 (  244) words (distinct). Name: Poprawa wydajno¶ci kana³u
+ -   898 (  489) words (distinct). Name: Efektywne kodowanie wiadomo¶ci
+ -   546 (  323) words (distinct). Name: Twierdzenie Shannona o kodach
+ -   329 (  200) words (distinct). Name: Dowód Twierdzenia Shannona
+ -  1425 (  660) words (distinct). Name: Z³o¿ono¶æ informacyjna Ko³mogorowa
+ -  1089 (  525) words (distinct). Name: Sta³a Chaitina
+* Systemy mobilne
+ -  2957 ( 1282) words (distinct). Name: WIKI
+ -  2793 ( 1249) words (distinct). Name: WIKI
+ -  3154 ( 1266) words (distinct). Name: WIKI
+ -  3470 ( 1459) words (distinct). Name: WIKI
+ -  2163 (  879) words (distinct). Name: WIKI
+ -  2861 ( 1144) words (distinct). Name: WIKI
+ -  2960 ( 1217) words (distinct). Name: WIKI
+ -  3917 ( 1586) words (distinct). Name: WIKI
+ -  3554 ( 1378) words (distinct). Name: WIKI
+ -  2814 ( 1067) words (distinct). Name: WIKI
+ -  3751 ( 1483) words (distinct). Name: WIKI
+ -    86 (   65) words (distinct). Name: WIKI
+ -  3047 ( 1407) words (distinct). Name: WIKI
+* Zaawansowane C++
+ -  3950 ( 1184) words (distinct). Name: Szablony I
+ -  5009 ( 1704) words (distinct). Name: Programowanie uogólnione
+ -  2496 (  765) words (distinct). Name: Szablony II
+ -  2547 ( 1043) words (distinct). Name: Testowanie
+ -  1893 (  659) words (distinct). Name: Klasy cech
+ -  2039 (  711) words (distinct). Name: Funkcje typów i inne sztuczki
+ -  1553 (  545) words (distinct). Name: Klasy wytycznych
+ -  1872 (  706) words (distinct). Name: Metaprogramowanie
+ -  2973 (  874) words (distinct). Name: Szablony wyra¿eñ
+ -  3552 ( 1216) words (distinct). Name: Inteligentne wska¼niki
+ -  2927 (  893) words (distinct). Name: Funktory
+ -  2609 ( 1024) words (distinct). Name: U¿ywanie funktorów
+ -  2751 ( 1092) words (distinct). Name: Wyj±tki
+ -  3180 (  994) words (distinct). Name: Zarz±dzanie pamiêci±
+ -  2039 (  658) words (distinct). Name: Wyj±tkowo odporny kod

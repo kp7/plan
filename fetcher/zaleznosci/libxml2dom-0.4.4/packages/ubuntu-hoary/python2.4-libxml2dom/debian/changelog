@@ -1,0 +1,167 @@
+libxml2dom (0.4.4-0ubuntu1) hoary; urgency=low
+
+  * Relicensed under the LGPL version 3 or later (fixing
+    PKG-INFO file).
+  * Improved XMPP support for messages, presence and events.
+  * Added Ubuntu Feisty (7.04) package support.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Sun, 26 Aug 2007 23:09:18 +0200
+
+libxml2dom (0.4.3-0ubuntu1) hoary; urgency=low
+
+  * Enforced well-formedness in parse operations unless
+    otherwise requested.
+  * Fixed access to null doctype properties.
+  * Added getElementById, firstChild and lastChild to the Node class.
+  * Added a __hash__ method to the Node class.
+  * Moved document checking into the Node class.
+  * Added an iterator for the NamedNodeMap class.
+  * Expanded the svg and events modules, including a test of
+    SVG events.
+  * Split the debian-stable packages into debian-sarge and
+    debian-etch.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Sun, 27 May 2007 17:51:55 +0200
+
+libxml2dom (0.4.2-0ubuntu1) hoary; urgency=low
+
+  * Added missing impl attribute to NamedNodeMap, fixing
+    attribute retrieval.
+  * Added documentElement to Document.
+  * Fixed and expanded the events module.
+  * Added lots of functionality to the svg module.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Sun, 25 Mar 2007 03:55:55 +0200
+
+libxml2dom (0.4.1-0ubuntu1) hoary; urgency=low
+
+  * Fixed the absence of CDATA node creation and importing.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Thu, 22 Mar 2007 21:48:43 +0100
+
+libxml2dom (0.4-0ubuntu1) hoary; urgency=low
+
+  * Changed the nodeValue property to return None for
+    various node types, as specified in the DOM
+    specification (Level 3).
+  * Fixed various "not supported" exceptions and added tests
+    which can raise "wrong document" exceptions.
+  * Introduced an Implementation class, permitting
+    specialised node creation.
+  * Added SVG-specific document support.
+  * Made parseURI work for HTML documents.
+  * Fixed getElementsByTagName(NS), as reported by Christian
+    Seiler.
+  * Fixed previousSibling, nextSibling and parentNode
+    crashes using suggestions from Christian Seiler.
+  * Reintroduced node comparisons using suggestions from
+    Christian Seiler.
+  * Fixed the absence of the CDATA node type.
+  * Added the textContent property to nodes.
+  * Added a getDOMImplementation function.
+  * Added an experimental events module.
+  * Added an htmlencoding parameter to the parse functions,
+    as requested by Iliyan Peychev.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Sat, 17 Mar 2007 20:37:02 +0100
+
+libxml2dom (0.3.6-0ubuntu1) hoary; urgency=low
+
+  * Added cloneNode almost as a synonym for importNode
+    (which, unlike in the DOM specification, is present on
+    all nodes).
+  * Introduced Debian stable package details - suggested by
+    Robert Siemer.
+  * Changed libxml2mod import details to try libxmlmods -
+    suggested by Lucian Wischik.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Tue, 28 Nov 2006 23:24:18 +0100
+
+libxml2dom (0.3.5-0ubuntu1) hoary; urgency=low
+
+  * Fixed nodeType for HTML document elements - reported by
+    Robert Siemer.
+  * Fixed string results from XPath expressions - reported
+    by Robert Siemer.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Thu, 27 Jul 2006 22:37:15 +0200
+
+libxml2dom (0.3.4-0ubuntu1) hoary; urgency=low
+
+  * Attempted to introduce generated prefixes for attributes
+    having namespaces but whose names are unprefixed.
+  * Added support for xmlns attribute retrieval
+    (getAttributeNS) and detection (hasAttributeNS).
+  * Added the length attribute to NamedNodeMap; renamed the
+    length method on NodeList, adding a length attribute.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Sun,  4 Jun 2006 16:23:35 +0200
+
+libxml2dom (0.3.3-0ubuntu1) hoary; urgency=low
+
+  * Removed redundant weakref usage.
+  * Added explicit copyright and licensing information to
+    source files.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Mon, 12 Dec 2005 13:45:34 +0100
+
+libxml2dom (0.3.2-0ubuntu1) hoary; urgency=low
+
+  * Improved the xmlns attribute creation controls.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Mon, 12 Dec 2005 11:29:23 +0100
+
+libxml2dom (0.3.1-0ubuntu1) hoary; urgency=low
+
+  * Fixed empty namespace declarations on elements created
+    with namespaceURI set to None. Previously, such
+    declarations were missing.
+  * Fixed attribute creation and introduced stricter
+    controls over the construction of xmlns attributes.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Sun, 11 Dec 2005 18:10:12 +0100
+
+libxml2dom (0.3-0ubuntu1) hoary; urgency=low
+
+  * Imposed much stricter tests on strings used with the
+    libxml2dom API. Strings given as arguments to methods
+    and functions must now only contain ASCII characters;
+    any other character data must be provided as Unicode
+    objects. This change fixes various issues with XPath
+    expressions, and quite probably various other things.
+  * Fixed parentNode on Document objects (which caused
+    xml.dom.ext.PrettyPrint to crash).
+  * Added some support for the doctype attribute and related
+    information.
+  * libxml2dom is now licensed under the LGPL - see
+    docs/COPYING.txt for details.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Sat,  3 Dec 2005 03:33:33 +0100
+
+libxml2dom (0.2.4-0ubuntu1) hoary; urgency=low
+
+  * Fixed Unicode conversions in the Node's xpath method.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Wed, 16 Nov 2005 18:18:51 +0100
+
+libxml2dom (0.2.3-0ubuntu1) hoary; urgency=low
+
+  * Fixed the parse function's docstring.
+  * Added the owner element to obtained attribute nodes.
+  * Fixed the Debian package changelog distribution
+    identifiers.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Wed, 16 Nov 2005 18:18:44 +0100
+
+libxml2dom (0.2.2-0ubuntu1) hoary; urgency=low
+
+  * Fixed exception raising in parseURI, adding a docstring
+    to explain the current limitations around HTML parsing.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Tue, 18 Oct 2005 19:14:40 +0200
+
+libxml2dom (0.2.1-0ubuntu1) hoary; urgency=low
+
+  * New upstream release.
+
+ -- Paul Boddie <paul@boddie.org.uk>  Mon, 15 Aug 2005 19:25:28 +0200

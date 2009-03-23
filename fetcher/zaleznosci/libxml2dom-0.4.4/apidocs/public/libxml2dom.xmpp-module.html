@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>libxml2dom.xmpp</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css"></link>
+</head>
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="libxml2dom-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <font size="-1"><b class="breadcrumbs">
+        <a href="libxml2dom-module.html">Package&nbsp;libxml2dom</a> ::
+        Module&nbsp;xmpp
+      </b></font></br>
+    </td>
+    <td><table cellpadding="0" cellspacing="0">
+      <tr><td align="right"><font size="-2">[<a href="../private/libxml2dom.xmpp-module.html">show&nbsp;private</a>&nbsp;|&nbsp;hide&nbsp;private]</font></td></tr>
+      <tr><td align="right"><font size="-2">[<a href="frames.html"target="_top">frames</a>&nbsp;|&nbsp;<a href="libxml2dom.xmpp-module.html" target="_top">no&nbsp;frames</a>]</font></td></tr>
+    </table></td>
+</tr></table>
+
+<!-- =========== START OF MODULE DESCRIPTION =========== -->
+<h2 class="module">Module libxml2dom.xmpp</h2>
+
+<pre class="literalblock">
+XMPP support using libxml2dom to capture stanzas as documents. The XMPP
+specification employs an &quot;open&quot; or unfinished document as the basis for
+communications between client and server - this presents problems for
+DOM-oriented libraries.
+
+Various Internet standards specifications exist for XMPP.
+See: http://www.xmpp.org/rfcs/rfc3920.html
+See: http://www.xmpp.org/rfcs/rfc3921.html
+
+Copyright (C) 2007 Paul Boddie &lt;paul&#64;boddie.org.uk&gt;
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU Lesser General Public License as published by the Free
+Software Foundation; either version 3 of the License, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
+details.
+
+You should have received a copy of the GNU Lesser General Public License along
+with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+
+--------
+
+The process of connecting, authenticating, and so on is quite convoluted:
+
+s = libxml2dom.xmpp.Session((&quot;localhost&quot;, 5222))
+d = s.connect(&quot;host&quot;)
+auth = s.createAuth()                        # provides access to the stanza
+auth.mechanism = &quot;PLAIN&quot;                     # choose a supported mechanism
+auth.setCredentials(jid, username, password) # for PLAIN authentication only
+d = s.send(auth)                             # hopefully a success response
+d = s.connect(&quot;host&quot;)                        # have to reconnect!
+iq = s.createIq()                            # make an 'iq' stanza
+iq.makeBind()                                # set up a binding operation
+d = s.send(iq)                               # hopefully a success response
+iq = s.createIq()                            # make an 'iq' stanza
+iq.makeSession()                             # set up a session
+d = s.send(iq)                               # hopefully a success response
+
+See tests/xmpp_test.py for more details.
+</pre>
+<hr/>
+
+<!-- =========== START OF CLASSES =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Classes</th></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.xmpp.Session-class.html"><code>Session</code></a></b></td>
+  <td>An XMPP session.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.xmpp.XEP0022EventElement-class.html"><code>XEP0022EventElement</code></a></b></td>
+  <td>An XEP-0022 event element.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.xmpp.XMPPAuthElement-class.html"><code>XMPPAuthElement</code></a></b></td>
+  <td>An XMPP auth element.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.xmpp.XMPPBindElement-class.html"><code>XMPPBindElement</code></a></b></td>
+  <td>An XMPP bind element.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.xmpp.XMPPClientElement-class.html"><code>XMPPClientElement</code></a></b></td>
+  <td>An XMPP client element.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.xmpp.XMPPDocument-class.html"><code>XMPPDocument</code></a></b></td>
+  <td>An XMPP document fragment.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.xmpp.XMPPElement-class.html"><code>XMPPElement</code></a></b></td>
+  <td>&nbsp;</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.xmpp.XMPPImplementation-class.html"><code>XMPPImplementation</code></a></b></td>
+  <td>Contains an XMPP-specific implementation.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.xmpp.XMPPIqElement-class.html"><code>XMPPIqElement</code></a></b></td>
+  <td>An XMPP 'iq' element used in instant messaging and registration.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.xmpp.XMPPMessageElement-class.html"><code>XMPPMessageElement</code></a></b></td>
+  <td>An XMPP message element.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.xmpp.XMPPNode-class.html"><code>XMPPNode</code></a></b></td>
+  <td>Convenience modifications to nodes specific to libxml2dom.svg.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.xmpp.XMPPPresenceElement-class.html"><code>XMPPPresenceElement</code></a></b></td>
+  <td>An XMPP presence element.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.xmpp.XMPPRegisterElement-class.html"><code>XMPPRegisterElement</code></a></b></td>
+  <td>A registration element.</td></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.xmpp.XMPPStreamElement-class.html"><code>XMPPStreamElement</code></a></b></td>
+  <td>&nbsp;</td></tr>
+</table><br />
+
+
+<!-- =========== START OF EXCEPTIONS =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Exceptions</th></tr>
+<tr><td width="15%">
+  <b><a href="libxml2dom.xmpp.SessionTerminated-class.html"><code>SessionTerminated</code></a></b></td>
+  <td>&nbsp;</td></tr>
+</table><br />
+
+
+<!-- =========== START OF FUNCTION SUMMARY =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Function Summary</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="createXMPPStanza"></a><span class="summary-sig"><span class="summary-sig-name">createXMPPStanza</span>(<span class=summary-sig-arg>namespaceURI</span>,
+          <span class=summary-sig-arg>localName</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="parse"></a><span class="summary-sig"><span class="summary-sig-name">parse</span>(<span class=summary-sig-arg>stream_or_string</span>,
+          <span class=summary-sig-arg>html</span>,
+          <span class=summary-sig-arg>htmlencoding</span>,
+          <span class=summary-sig-arg>unfinished</span>,
+          <span class=summary-sig-arg>impl</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="parseFile"></a><span class="summary-sig"><span class="summary-sig-name">parseFile</span>(<span class=summary-sig-arg>filename</span>,
+          <span class=summary-sig-arg>html</span>,
+          <span class=summary-sig-arg>htmlencoding</span>,
+          <span class=summary-sig-arg>unfinished</span>,
+          <span class=summary-sig-arg>impl</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="parseString"></a><span class="summary-sig"><span class="summary-sig-name">parseString</span>(<span class=summary-sig-arg>s</span>,
+          <span class=summary-sig-arg>html</span>,
+          <span class=summary-sig-arg>htmlencoding</span>,
+          <span class=summary-sig-arg>unfinished</span>,
+          <span class=summary-sig-arg>impl</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="parseURI"></a><span class="summary-sig"><span class="summary-sig-name">parseURI</span>(<span class=summary-sig-arg>uri</span>,
+          <span class=summary-sig-arg>html</span>,
+          <span class=summary-sig-arg>htmlencoding</span>,
+          <span class=summary-sig-arg>unfinished</span>,
+          <span class=summary-sig-arg>impl</span>)</span></code>
+</td></tr>
+</table><br />
+
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="libxml2dom-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="left"><font size="-2">Generated by Epydoc 2.1 on Tue Sep 18 23:37:02 2007</font></td>
+    <td align="right"><a href="http://epydoc.sourceforge.net"
+                      ><font size="-2">http://epydoc.sf.net</font></a></td>
+  </tr>
+</table>
+</body>
+</html>

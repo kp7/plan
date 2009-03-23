@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: libxml2dom
+Version: 0.4.4
+Author: Paul Boddie
+Author-email: paul at boddie org uk
+Maintainer: Paul Boddie
+Maintainer-email: paul at boddie org uk
+Home-page: http://www.boddie.org.uk/python/libxml2dom.html
+Download-url: http://www.boddie.org.uk/python/downloads/libxml2dom-0.4.4.tar.gz
+Summary: PyXML-style API for the libxml2 Python bindings
+License: LGPL (version 3 or later)
+Description: The libxml2dom package provides a traditional DOM wrapper around the Python
+        bindings for libxml2. In contrast to the libxml2 bindings, libxml2dom provides
+        an API reminiscent of minidom, pxdom and other Python-based and Python-related
+        XML toolkits.
+Keywords: XML libxml2 SVG XMPP
+Platform: Any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Text Processing :: Markup :: XML

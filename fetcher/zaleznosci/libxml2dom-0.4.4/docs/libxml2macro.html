@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+  <title>libxml2macro</title>
+  <meta name="generator"
+ content="amaya 8.1a, see http://www.w3.org/Amaya/">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>libxml2macro</h1>
+<p>The libxml2macro tool and accompanying libraries (<code>libxml2dom.macrolib</code>)
+provide and experimental mechanism for writing normal DOM-style code
+(with node objects) and being able to transform such code into direct
+calls and accesses to the low-level libxml2mod API. Since libxml2dom
+now makes use of these libraries, and since the objects created at the
+libxml2dom level do not necessarily introduce a huge time or memory
+overhead, this mechanism is now more an experimental curiosity than
+anything of practical use. Moreover, the generated code does not
+attempt to clean up after libxml2, potentially introducing memory leaks
+into programs.</p>
+<h2>Using libxml2macro</h2>
+<p>The libxml2macro approach is as follows:</p>
+<ul>
+  <li>Write code using the PyXML-inspired DOM-style API, but giving
+node variables and attributes a distinct prefix.</li>
+  <li>Run the supplied tool <code>libxml2macro.py</code> on the source
+file.</li>
+  <li>Invoke the compiled module directly or import it into programs as
+usual.</li>
+</ul>
+<p>A description of the process is given in the <code>README.txt</code>
+file
+within the source code distribution. However, what libxml2macro does is
+to
+take code like this...</p>
+<pre>for my_node in my_element.childNodes:<br>    if my_node.nodeType == TEXT_NODE:<br>        print my_node.nodeValue</pre>
+<p>...and to transform it into something more or less like this
+(although in
+practice the actual libxml2mod calls are provided in a library,
+although more
+aggressive transformations could result in something actually like
+this):</p>
+<pre>for my_node in libxml2mod.children(my_element):<br>    if libxml2mod.type(my_node) == "text":<br>        print libxml2mod.xmlNodeGetContent(my_node)</pre>
+<p>The result is that developers can still write DOM-style code but not
+be
+penalised for the object-related overhead that such an approach
+typically
+incurs.</p>
+</body>
+</html>

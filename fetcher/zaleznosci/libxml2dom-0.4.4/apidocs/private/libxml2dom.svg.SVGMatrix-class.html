@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>libxml2dom.svg.SVGMatrix</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css"></link>
+</head>
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="libxml2dom-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <font size="-1"><b class="breadcrumbs">
+        <a href="libxml2dom-module.html">Package&nbsp;libxml2dom</a> ::
+        <a href="libxml2dom.svg-module.html">Module&nbsp;svg</a> ::
+        Class&nbsp;SVGMatrix
+      </b></font></br>
+    </td>
+    <td><table cellpadding="0" cellspacing="0">
+      <tr><td align="right"><font size="-2">[show&nbsp;private&nbsp;|&nbsp;<a href="../public/libxml2dom.svg.SVGMatrix-class.html">hide&nbsp;private</a>]</font></td></tr>
+      <tr><td align="right"><font size="-2">[<a href="frames.html"target="_top">frames</a>&nbsp;|&nbsp;<a href="libxml2dom.svg.SVGMatrix-class.html" target="_top">no&nbsp;frames</a>]</font></td></tr>
+    </table></td>
+</tr></table>
+
+<!-- =========== START OF CLASS DESCRIPTION =========== -->
+<h2 class="class">Class SVGMatrix</h2>
+
+<hr/>
+
+<pre class="literalblock">
+A matrix.
+See: http://www.w3.org/TR/SVGMobile12/svgudom.html#svg__SVGMatrix
+</pre>
+<hr/>
+
+
+<!-- =========== START OF METHOD SUMMARY =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Method Summary</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="__init__"></a><span class="summary-sig"><span class="summary-sig-name">__init__</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>a</span>,
+          <span class=summary-sig-arg>b</span>,
+          <span class=summary-sig-arg>c</span>,
+          <span class=summary-sig-arg>d</span>,
+          <span class=summary-sig-arg>e</span>,
+          <span class=summary-sig-arg>f</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="__eq__"></a><span class="summary-sig"><span class="summary-sig-name">__eq__</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>other</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="__ne__"></a><span class="summary-sig"><span class="summary-sig-name">__ne__</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>other</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.svg.SVGMatrix-class.html#fromNode" class="summary-sig-name"><code>fromNode</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>node</span>,
+          <span class=summary-sig-arg>name</span>)</span></code>
+<br />
+Initialise this object from the trait on the 'node' having the given
+'name'.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.svg.SVGMatrix-class.html#getComponent" class="summary-sig-name"><code>getComponent</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>index</span>)</span></code>
+<br />
+Return the component with the given 'index' (starting at zero) from the...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.svg.SVGMatrix-class.html#inverse" class="summary-sig-name"><code>inverse</code></a>(<span class=summary-sig-arg>self</span>)</span></code>
+<br />
+det = ad - cb...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.svg.SVGMatrix-class.html#mMultiply" class="summary-sig-name"><code>mMultiply</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>secondMatrix</span>)</span></code>
+<br />
+Multiply this matrix with 'secondMatrix' and update its contents to the
+result of the multiplication operation defined as follows:
+
+[ a c e ] [ A C E ]
+[ b d f ] [ B D F ]
+[ 0 0 1 ] [ 0 0 1 ]
+
+Return this object as a result.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.svg.SVGMatrix-class.html#mRotate" class="summary-sig-name"><code>mRotate</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>angle</span>)</span></code>
+<br />
+[ cos(angle) -sin(angle) 0 ]...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.svg.SVGMatrix-class.html#mScale" class="summary-sig-name"><code>mScale</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>scaleFactor</span>)</span></code>
+<br />
+[ scaleFactor 0           0 ]...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.svg.SVGMatrix-class.html#mTranslate" class="summary-sig-name"><code>mTranslate</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>x</span>,
+          <span class=summary-sig-arg>y</span>)</span></code>
+<br />
+[ 1 0 x ]...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="libxml2dom.svg.SVGMatrix-class.html#toNode" class="summary-sig-name"><code>toNode</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>node</span>,
+          <span class=summary-sig-arg>name</span>)</span></code>
+<br />
+Set the trait on the given 'node' using the given 'name' according to
+this object's attributes.</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_get_params"></a><span class="summary-sig"><span class="summary-sig-name">_get_params</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>param_string</span>)</span></code>
+</td></tr>
+</table><br />
+
+
+<!-- =========== START OF CLASS VARIABLE SUMMARY =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Class Variable Summary</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>SRE_Pattern</code></font></td>
+<td><b><a href="libxml2dom.svg.SVGMatrix-class.html#matrix_regexp"><code>matrix_regexp</code></a></b> = <span title="&lt;_sre.SRE_Pattern object at 0xb7ba6400&gt;"><code><span class="re">matrix<span class="re-char">\(</span><span class="re-group">(</span><span class="re-char">.</span><span class="re-op">*</span><span class="re-group">)</span><span class="re-char">\)</span><span class="re-char">$</span></span>                          </code>
+</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>SRE_Pattern</code></font></td>
+<td><b><a href="libxml2dom.svg.SVGMatrix-class.html#rotate_regexp"><code>rotate_regexp</code></a></b> = <span title="&lt;_sre.SRE_Pattern object at 0xb7ba6308&gt;"><code><span class="re">rotate<span class="re-char">\(</span><span class="re-group">(</span><span class="re-char">.</span><span class="re-op">*</span><span class="re-group">)</span><span class="re-char">\)</span><span class="re-char">$</span></span>                          </code>
+</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>SRE_Pattern</code></font></td>
+<td><b><a href="libxml2dom.svg.SVGMatrix-class.html#scale_regexp"><code>scale_regexp</code></a></b> = <span title="&lt;_sre.SRE_Pattern object at 0xb7b99a18&gt;"><code><span class="re">scale<span class="re-char">\(</span><span class="re-group">(</span><span class="re-char">.</span><span class="re-op">*</span><span class="re-group">)</span><span class="re-char">\)</span><span class="re-char">$</span></span>                            </code>
+</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>SRE_Pattern</code></font></td>
+<td><b><a href="libxml2dom.svg.SVGMatrix-class.html#skewX_regexp"><code>skewX_regexp</code></a></b> = <span title="&lt;_sre.SRE_Pattern object at 0xb7b99b00&gt;"><code><span class="re">skewX<span class="re-char">\(</span><span class="re-group">(</span><span class="re-char">.</span><span class="re-op">*</span><span class="re-group">)</span><span class="re-char">\)</span><span class="re-char">$</span></span>                            </code>
+</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>SRE_Pattern</code></font></td>
+<td><b><a href="libxml2dom.svg.SVGMatrix-class.html#skewY_regexp"><code>skewY_regexp</code></a></b> = <span title="&lt;_sre.SRE_Pattern object at 0xb7b99be8&gt;"><code><span class="re">skewY<span class="re-char">\(</span><span class="re-group">(</span><span class="re-char">.</span><span class="re-op">*</span><span class="re-group">)</span><span class="re-char">\)</span><span class="re-char">$</span></span>                            </code>
+</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>SRE_Pattern</code></font></td>
+<td><b><a href="libxml2dom.svg.SVGMatrix-class.html#translate_regexp"><code>translate_regexp</code></a></b> = <span title="&lt;_sre.SRE_Pattern object at 0x82edca0&gt;"><code><span class="re">translate<span class="re-char">\(</span><span class="re-group">(</span><span class="re-char">.</span><span class="re-op">*</span><span class="re-group">)</span><span class="re-char">\)</span><span class="re-char">$</span></span>                    </code>
+</span></td></tr>
+</table><br />
+
+
+<!-- =========== START OF METHOD DETAILS =========== -->
+<table class="details" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="details">
+  <th colspan="2">Method Details</th></tr>
+</table>
+
+<a name="fromNode"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">fromNode</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>node</span>,
+          <span class=sig-arg>name</span>)</span>
+  </h3>
+<pre class="literalblock">
+Initialise this object from the trait on the 'node' having the given
+'name'.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="getComponent"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">getComponent</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>index</span>)</span>
+  </h3>
+<pre class="literalblock">
+Return the component with the given 'index' (starting at zero) from the
+sequence a, b, c, d, e, f where each element corresponds to the matrix
+as follows:
+
+[ a c e ]
+[ b d f ]
+[ 0 0 1 ]
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="inverse"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">inverse</span>(<span class=sig-arg>self</span>)</span>
+  </h3>
+<pre class="literalblock">
+det = ad - cb
+
+See (for example): http://mathworld.wolfram.com/MatrixInverse.html
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="mMultiply"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">mMultiply</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>secondMatrix</span>)</span>
+  </h3>
+<pre class="literalblock">
+Multiply this matrix with 'secondMatrix' and update its contents to the
+result of the multiplication operation defined as follows:
+
+[ a c e ] [ A C E ]
+[ b d f ] [ B D F ]
+[ 0 0 1 ] [ 0 0 1 ]
+
+Return this object as a result.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="mRotate"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">mRotate</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>angle</span>)</span>
+  </h3>
+<pre class="literalblock">
+[ cos(angle) -sin(angle) 0 ]
+[ sin(angle) cos(angle)  0 ]
+[ 0          0           1 ]
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="mScale"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">mScale</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>scaleFactor</span>)</span>
+  </h3>
+<pre class="literalblock">
+[ scaleFactor 0           0 ]
+[ 0           scaleFactor 0 ]
+[ 0           0           1 ]
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="mTranslate"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">mTranslate</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>x</span>,
+          <span class=sig-arg>y</span>)</span>
+  </h3>
+<pre class="literalblock">
+[ 1 0 x ]
+[ 0 1 y ]
+[ 0 0 1 ]
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+
+<a name="toNode"></a>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+  <h3><span class="sig"><span class="sig-name">toNode</span>(<span class=sig-arg>self</span>,
+          <span class=sig-arg>node</span>,
+          <span class=sig-arg>name</span>)</span>
+  </h3>
+<pre class="literalblock">
+Set the trait on the given 'node' using the given 'name' according to
+this object's attributes.
+</pre>
+  <dl><dt></dt><dd>
+  </dd></dl>
+</td></tr></table>
+<br />
+
+
+<!-- =========== START OF CLASS VARIABLE DETAILS =========== -->
+<table class="details" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="details">
+  <th colspan="2">Class Variable Details</th></tr>
+</table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="matrix_regexp"></a>
+<h3>matrix_regexp</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>SRE_Pattern</code>
+
+      </dd>
+<span title="&lt;_sre.SRE_Pattern object at 0xb7ba6400&gt;">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+<span class="re">matrix<span class="re-char">\(</span><span class="re-group">(</span><span class="re-char">.</span><span class="re-op">*</span><span class="re-group">)</span><span class="re-char">\)</span><span class="re-char">$</span></span>                                                        </pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="rotate_regexp"></a>
+<h3>rotate_regexp</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>SRE_Pattern</code>
+
+      </dd>
+<span title="&lt;_sre.SRE_Pattern object at 0xb7ba6308&gt;">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+<span class="re">rotate<span class="re-char">\(</span><span class="re-group">(</span><span class="re-char">.</span><span class="re-op">*</span><span class="re-group">)</span><span class="re-char">\)</span><span class="re-char">$</span></span>                                                        </pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="scale_regexp"></a>
+<h3>scale_regexp</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>SRE_Pattern</code>
+
+      </dd>
+<span title="&lt;_sre.SRE_Pattern object at 0xb7b99a18&gt;">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+<span class="re">scale<span class="re-char">\(</span><span class="re-group">(</span><span class="re-char">.</span><span class="re-op">*</span><span class="re-group">)</span><span class="re-char">\)</span><span class="re-char">$</span></span>                                                         </pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="skewX_regexp"></a>
+<h3>skewX_regexp</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>SRE_Pattern</code>
+
+      </dd>
+<span title="&lt;_sre.SRE_Pattern object at 0xb7b99b00&gt;">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+<span class="re">skewX<span class="re-char">\(</span><span class="re-group">(</span><span class="re-char">.</span><span class="re-op">*</span><span class="re-group">)</span><span class="re-char">\)</span><span class="re-char">$</span></span>                                                         </pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="skewY_regexp"></a>
+<h3>skewY_regexp</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>SRE_Pattern</code>
+
+      </dd>
+<span title="&lt;_sre.SRE_Pattern object at 0xb7b99be8&gt;">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+<span class="re">skewY<span class="re-char">\(</span><span class="re-group">(</span><span class="re-char">.</span><span class="re-op">*</span><span class="re-group">)</span><span class="re-char">\)</span><span class="re-char">$</span></span>                                                         </pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="translate_regexp"></a>
+<h3>translate_regexp</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>SRE_Pattern</code>
+
+      </dd>
+<span title="&lt;_sre.SRE_Pattern object at 0x82edca0&gt;">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+<span class="re">translate<span class="re-char">\(</span><span class="re-group">(</span><span class="re-char">.</span><span class="re-op">*</span><span class="re-group">)</span><span class="re-char">\)</span><span class="re-char">$</span></span>                                                     </pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<br />
+
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="libxml2dom-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="left"><font size="-2">Generated by Epydoc 2.1 on Tue Sep 18 23:37:02 2007</font></td>
+    <td align="right"><a href="http://epydoc.sourceforge.net"
+                      ><font size="-2">http://epydoc.sf.net</font></a></td>
+  </tr>
+</table>
+</body>
+</html>

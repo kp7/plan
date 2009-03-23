@@ -1,0 +1,18 @@
+Source: libxml2dom
+Priority: optional
+Maintainer: Paul Boddie <paul@boddie.org.uk>
+Build-Depends: debhelper (>> 3.0.0), python2.4-dev, python-epydoc (>= 2.1-6ubuntu1)
+Standards-Version: 3.5.8
+Section: python
+
+Package: python2.4-libxml2dom
+Section: python
+Architecture: all
+Depends: python2.4-libxml2 (>= 2.6.17), python2.4
+Description: PyXML-style API for the libxml2 Python bindings
+ The libxml2dom package provides a traditional DOM wrapper around the Python
+ bindings for libxml2. In contrast to the libxml2 bindings, libxml2dom provides
+ an API reminiscent of minidom, pxdom and other Python-based and Python-related
+ XML toolkits.
+ .
+ This package is built for Python 2.4.x.

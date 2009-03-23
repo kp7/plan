@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>libxml2dom.Node</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css"></link>
+</head>
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="libxml2dom-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <font size="-1"><b class="breadcrumbs">
+        <a href="libxml2dom-module.html">Package&nbsp;libxml2dom</a> ::
+        Class&nbsp;Node
+      </b></font></br>
+    </td>
+    <td><table cellpadding="0" cellspacing="0">
+      <tr><td align="right"><font size="-2">[show&nbsp;private&nbsp;|&nbsp;<a href="../public/libxml2dom.Node-class.html">hide&nbsp;private</a>]</font></td></tr>
+      <tr><td align="right"><font size="-2">[<a href="frames.html"target="_top">frames</a>&nbsp;|&nbsp;<a href="libxml2dom.Node-class.html" target="_top">no&nbsp;frames</a>]</font></td></tr>
+    </table></td>
+</tr></table>
+
+<!-- =========== START OF CLASS DESCRIPTION =========== -->
+<h2 class="class">Type Node</h2>
+
+<pre class="base-tree">
+<a href="__builtin__.object-class.html"><code>object</code></a> --+
+         |
+        <b>Node</b>
+</pre><br />
+
+<dl><dt><b>Known Subclasses:</b></dt>
+<dd>
+    <a href="libxml2dom.Attribute-class.html"><code>Attribute</code></a>,
+    <a href="libxml2dom.Document-class.html"><code>Document</code></a>,
+    <a href="libxml2dom.svg.SVGNode-class.html"><code>SVGNode</code></a>,
+    <a href="libxml2dom.xmpp.XMPPNode-class.html"><code>XMPPNode</code></a></dd></dl>
+
+<hr/>
+
+<pre class="literalblock">
+A DOM-style wrapper around libxml2mod objects.
+</pre>
+<hr/>
+
+
+<!-- =========== START OF METHOD SUMMARY =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Method Summary</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="__init__"></a><span class="summary-sig"><span class="summary-sig-name">__init__</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>node</span>,
+          <span class=summary-sig-arg>impl</span>,
+          <span class=summary-sig-arg>ownerDocument</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="__eq__"></a><span class="summary-sig"><span class="summary-sig-name">__eq__</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>other</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="__hash__"></a><span class="summary-sig"><span class="summary-sig-name">__hash__</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="__ne__"></a><span class="summary-sig"><span class="summary-sig-name">__ne__</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>other</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="appendChild"></a><span class="summary-sig"><span class="summary-sig-name">appendChild</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>tmp</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="as_native_node"></a><span class="summary-sig"><span class="summary-sig-name">as_native_node</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="cloneNode"></a><span class="summary-sig"><span class="summary-sig-name">cloneNode</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>deep</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="createAttribute"></a><span class="summary-sig"><span class="summary-sig-name">createAttribute</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>name</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="createAttributeNS"></a><span class="summary-sig"><span class="summary-sig-name">createAttributeNS</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>ns</span>,
+          <span class=summary-sig-arg>name</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="createCDATASection"></a><span class="summary-sig"><span class="summary-sig-name">createCDATASection</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>value</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="createComment"></a><span class="summary-sig"><span class="summary-sig-name">createComment</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>value</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="createElement"></a><span class="summary-sig"><span class="summary-sig-name">createElement</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>name</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="createElementNS"></a><span class="summary-sig"><span class="summary-sig-name">createElementNS</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>ns</span>,
+          <span class=summary-sig-arg>name</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="createTextNode"></a><span class="summary-sig"><span class="summary-sig-name">createTextNode</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>value</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="getAttribute"></a><span class="summary-sig"><span class="summary-sig-name">getAttribute</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>name</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="getAttributeNode"></a><span class="summary-sig"><span class="summary-sig-name">getAttributeNode</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>localName</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="getAttributeNodeNS"></a><span class="summary-sig"><span class="summary-sig-name">getAttributeNodeNS</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>ns</span>,
+          <span class=summary-sig-arg>localName</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="getAttributeNS"></a><span class="summary-sig"><span class="summary-sig-name">getAttributeNS</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>ns</span>,
+          <span class=summary-sig-arg>localName</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="getElementById"></a><span class="summary-sig"><span class="summary-sig-name">getElementById</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>identifier</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="getElementsByTagName"></a><span class="summary-sig"><span class="summary-sig-name">getElementsByTagName</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>tagName</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="getElementsByTagNameNS"></a><span class="summary-sig"><span class="summary-sig-name">getElementsByTagNameNS</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>namespaceURI</span>,
+          <span class=summary-sig-arg>localName</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="hasAttribute"></a><span class="summary-sig"><span class="summary-sig-name">hasAttribute</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>name</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="hasAttributeNS"></a><span class="summary-sig"><span class="summary-sig-name">hasAttributeNS</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>ns</span>,
+          <span class=summary-sig-arg>localName</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="importNode"></a><span class="summary-sig"><span class="summary-sig-name">importNode</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>node</span>,
+          <span class=summary-sig-arg>deep</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="insertBefore"></a><span class="summary-sig"><span class="summary-sig-name">insertBefore</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>tmp</span>,
+          <span class=summary-sig-arg>oldNode</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="isSameNode"></a><span class="summary-sig"><span class="summary-sig-name">isSameNode</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>other</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="normalize"></a><span class="summary-sig"><span class="summary-sig-name">normalize</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="removeAttribute"></a><span class="summary-sig"><span class="summary-sig-name">removeAttribute</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>name</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="removeAttributeNS"></a><span class="summary-sig"><span class="summary-sig-name">removeAttributeNS</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>ns</span>,
+          <span class=summary-sig-arg>localName</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="removeChild"></a><span class="summary-sig"><span class="summary-sig-name">removeChild</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>tmp</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="replaceChild"></a><span class="summary-sig"><span class="summary-sig-name">replaceChild</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>tmp</span>,
+          <span class=summary-sig-arg>oldNode</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="setAttribute"></a><span class="summary-sig"><span class="summary-sig-name">setAttribute</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>name</span>,
+          <span class=summary-sig-arg>value</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="setAttributeNode"></a><span class="summary-sig"><span class="summary-sig-name">setAttributeNode</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>node</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="setAttributeNodeNS"></a><span class="summary-sig"><span class="summary-sig-name">setAttributeNodeNS</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>node</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="setAttributeNS"></a><span class="summary-sig"><span class="summary-sig-name">setAttributeNS</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>ns</span>,
+          <span class=summary-sig-arg>name</span>,
+          <span class=summary-sig-arg>value</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="toFile"></a><span class="summary-sig"><span class="summary-sig-name">toFile</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>f</span>,
+          <span class=summary-sig-arg>encoding</span>,
+          <span class=summary-sig-arg>prettyprint</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="toStream"></a><span class="summary-sig"><span class="summary-sig-name">toStream</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>stream</span>,
+          <span class=summary-sig-arg>encoding</span>,
+          <span class=summary-sig-arg>prettyprint</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="toString"></a><span class="summary-sig"><span class="summary-sig-name">toString</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>encoding</span>,
+          <span class=summary-sig-arg>prettyprint</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="xpath"></a><span class="summary-sig"><span class="summary-sig-name">xpath</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>expr</span>,
+          <span class=summary-sig-arg>variables</span>,
+          <span class=summary-sig-arg>namespaces</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_attributes"></a><span class="summary-sig"><span class="summary-sig-name">_attributes</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_childNodes"></a><span class="summary-sig"><span class="summary-sig-name">_childNodes</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_doctype"></a><span class="summary-sig"><span class="summary-sig-name">_doctype</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_findId"></a><span class="summary-sig"><span class="summary-sig-name">_findId</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>declaration</span>,
+          <span class=summary-sig-arg>identifier</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_findIdValue"></a><span class="summary-sig"><span class="summary-sig-name">_findIdValue</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>declaration</span>,
+          <span class=summary-sig-arg>i</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_firstChild"></a><span class="summary-sig"><span class="summary-sig-name">_firstChild</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_lastChild"></a><span class="summary-sig"><span class="summary-sig-name">_lastChild</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_localName"></a><span class="summary-sig"><span class="summary-sig-name">_localName</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_namespaceURI"></a><span class="summary-sig"><span class="summary-sig-name">_namespaceURI</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_nextSibling"></a><span class="summary-sig"><span class="summary-sig-name">_nextSibling</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_nodeName"></a><span class="summary-sig"><span class="summary-sig-name">_nodeName</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_nodeType"></a><span class="summary-sig"><span class="summary-sig-name">_nodeType</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_nodeValue"></a><span class="summary-sig"><span class="summary-sig-name">_nodeValue</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_normalize"></a><span class="summary-sig"><span class="summary-sig-name">_normalize</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>text_nodes</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_parentNode"></a><span class="summary-sig"><span class="summary-sig-name">_parentNode</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_prefix"></a><span class="summary-sig"><span class="summary-sig-name">_prefix</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_previousSibling"></a><span class="summary-sig"><span class="summary-sig-name">_previousSibling</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_publicId"></a><span class="summary-sig"><span class="summary-sig-name">_publicId</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_setNodeValue"></a><span class="summary-sig"><span class="summary-sig-name">_setNodeValue</span>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>value</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_systemId"></a><span class="summary-sig"><span class="summary-sig-name">_systemId</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_tagName"></a><span class="summary-sig"><span class="summary-sig-name">_tagName</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><a name="_textContent"></a><span class="summary-sig"><span class="summary-sig-name">_textContent</span>(<span class=summary-sig-arg>self</span>)</span></code>
+</td></tr>
+<tr bgcolor="#e8f0f8" class="group">
+  <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;Inherited from object</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="__builtin__.object-class.html#__delattr__" class="summary-sig-name"><code>__delattr__</code></a>(<span class="summary-sig-vararg">...</span>)</span></code>
+<br />
+x.__delattr__('name') &lt;==&gt; del x.name...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="__builtin__.object-class.html#__getattribute__" class="summary-sig-name"><code>__getattribute__</code></a>(<span class="summary-sig-vararg">...</span>)</span></code>
+<br />
+x.__getattribute__('name') &lt;==&gt; x.name...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="__builtin__.object-class.html#__new__" class="summary-sig-name"><code>__new__</code></a>(<span class=summary-sig-arg>T</span>,
+          <span class=summary-sig-arg>S</span>,
+          <span class="summary-sig-vararg">...</span>)</span></code>
+<br />
+T.__new__(S, ...) -&gt; a new object with type S, a subtype of T...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="__builtin__.object-class.html#__reduce__" class="summary-sig-name"><code>__reduce__</code></a>(<span class="summary-sig-vararg">...</span>)</span></code>
+<br />
+helper for pickle...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="__builtin__.object-class.html#__reduce_ex__" class="summary-sig-name"><code>__reduce_ex__</code></a>(<span class="summary-sig-vararg">...</span>)</span></code>
+<br />
+helper for pickle...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="__builtin__.object-class.html#__repr__" class="summary-sig-name"><code>__repr__</code></a>(<span class=summary-sig-arg>x</span>)</span></code>
+<br />
+x.__repr__() &lt;==&gt; repr(x)...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="__builtin__.object-class.html#__setattr__" class="summary-sig-name"><code>__setattr__</code></a>(<span class="summary-sig-vararg">...</span>)</span></code>
+<br />
+x.__setattr__('name', value) &lt;==&gt; x.name = value...</td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><code><span class="summary-sig"><a href="__builtin__.object-class.html#__str__" class="summary-sig-name"><code>__str__</code></a>(<span class=summary-sig-arg>x</span>)</span></code>
+<br />
+x.__str__() &lt;==&gt; str(x)...</td></tr>
+</table><br />
+
+
+<!-- =========== START OF PROPERTY SUMMARY =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Property Summary</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#attributes"><code>attributes</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#childNodes"><code>childNodes</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#data"><code>data</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#doctype"><code>doctype</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#firstChild"><code>firstChild</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#lastChild"><code>lastChild</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#localName"><code>localName</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#name"><code>name</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#namespaceURI"><code>namespaceURI</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#nextSibling"><code>nextSibling</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#nodeName"><code>nodeName</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#nodeType"><code>nodeType</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#nodeValue"><code>nodeValue</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#parentNode"><code>parentNode</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#prefix"><code>prefix</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#previousSibling"><code>previousSibling</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#publicId"><code>publicId</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#systemId"><code>systemId</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#tagName"><code>tagName</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#textContent"><code>textContent</code></a></b></td></tr><tr><td align="right" valign="top" width="15%"><font size="-1">&nbsp;</font></td>
+  <td><b><a href="libxml2dom.Node-class.html#value"><code>value</code></a></b></td></tr></table><br />
+
+
+<!-- =========== START OF CLASS VARIABLE SUMMARY =========== -->
+<table class="summary" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="summary">
+  <th colspan="2">Class Variable Summary</th></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#ATTRIBUTE_NODE"><code>ATTRIBUTE_NODE</code></a></b> = <span title="2">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#COMMENT_NODE"><code>COMMENT_NODE</code></a></b> = <span title="8">8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#DOCUMENT_NODE"><code>DOCUMENT_NODE</code></a></b> = <span title="9">9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#DOCUMENT_TYPE_NODE"><code>DOCUMENT_TYPE_NODE</code></a></b> = <span title="10">10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#ELEMENT_NODE"><code>ELEMENT_NODE</code></a></b> = <span title="1">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>dict</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#entities"><code>entities</code></a></b> = <span title="{}"><code>{}                                            </code>
+</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#ENTITY_NODE"><code>ENTITY_NODE</code></a></b> = <span title="6">6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#ENTITY_REFERENCE_NODE"><code>ENTITY_REFERENCE_NODE</code></a></b> = <span title="5">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#NOTATION_NODE"><code>NOTATION_NODE</code></a></b> = <span title="12">12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>dict</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#notations"><code>notations</code></a></b> = <span title="{}"><code>{}                                           </code>
+</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#PROCESSING_INSTRUCTION_NODE"><code>PROCESSING_INSTRUCTION_NODE</code></a></b> = <span title="7">7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+<tr><td align="right" valign="top" width="15%"><font size="-1"><code>int</code></font></td>
+<td><b><a href="libxml2dom.Node-class.html#TEXT_NODE"><code>TEXT_NODE</code></a></b> = <span title="3">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+</table><br />
+
+
+<!-- =========== START OF PROPERTY DETAILS =========== -->
+<table class="details" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="details">
+  <th colspan="2">Property Details</th></tr>
+</table>
+<table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="attributes"></a>
+<h3>attributes</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_attributes" class="summary-sig-name"><code>_attributes</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="childNodes"></a>
+<h3>childNodes</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_childNodes" class="summary-sig-name"><code>_childNodes</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="data"></a>
+<h3>data</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_nodeValue" class="summary-sig-name"><code>_nodeValue</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+      <dt><b>Set Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_setNodeValue" class="summary-sig-name"><code>_setNodeValue</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>value</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="doctype"></a>
+<h3>doctype</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_doctype" class="summary-sig-name"><code>_doctype</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="firstChild"></a>
+<h3>firstChild</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_firstChild" class="summary-sig-name"><code>_firstChild</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="lastChild"></a>
+<h3>lastChild</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_lastChild" class="summary-sig-name"><code>_lastChild</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="localName"></a>
+<h3>localName</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_localName" class="summary-sig-name"><code>_localName</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="name"></a>
+<h3>name</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_nodeName" class="summary-sig-name"><code>_nodeName</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="namespaceURI"></a>
+<h3>namespaceURI</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_namespaceURI" class="summary-sig-name"><code>_namespaceURI</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="nextSibling"></a>
+<h3>nextSibling</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_nextSibling" class="summary-sig-name"><code>_nextSibling</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="nodeName"></a>
+<h3>nodeName</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_nodeName" class="summary-sig-name"><code>_nodeName</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="nodeType"></a>
+<h3>nodeType</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_nodeType" class="summary-sig-name"><code>_nodeType</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="nodeValue"></a>
+<h3>nodeValue</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_nodeValue" class="summary-sig-name"><code>_nodeValue</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+      <dt><b>Set Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_setNodeValue" class="summary-sig-name"><code>_setNodeValue</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>value</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="parentNode"></a>
+<h3>parentNode</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_parentNode" class="summary-sig-name"><code>_parentNode</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="prefix"></a>
+<h3>prefix</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_prefix" class="summary-sig-name"><code>_prefix</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="previousSibling"></a>
+<h3>previousSibling</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_previousSibling" class="summary-sig-name"><code>_previousSibling</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="publicId"></a>
+<h3>publicId</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_publicId" class="summary-sig-name"><code>_publicId</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="systemId"></a>
+<h3>systemId</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_systemId" class="summary-sig-name"><code>_systemId</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="tagName"></a>
+<h3>tagName</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_tagName" class="summary-sig-name"><code>_tagName</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="textContent"></a>
+<h3>textContent</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_textContent" class="summary-sig-name"><code>_textContent</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><table width="100%" class="func-details" bgcolor="#e0e0e0"><tr><td>
+
+<a name="value"></a>
+<h3>value</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Get Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_nodeValue" class="summary-sig-name"><code>_nodeValue</code></a>(<span class=summary-sig-arg>self</span>)</span>
+      </dd>
+      <dt><b>Set Method:</b></dt>
+      <dd><span class="summary-sig"><a href="../private/libxml2dom.Node-class.html#_setNodeValue" class="summary-sig-name"><code>_setNodeValue</code></a>(<span class=summary-sig-arg>self</span>,
+          <span class=summary-sig-arg>value</span>)</span>
+      </dd>
+    </dl>
+  </dd>
+</dl></td></tr></table><br />
+
+
+<!-- =========== START OF CLASS VARIABLE DETAILS =========== -->
+<table class="details" border="1" cellpadding="3" cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="details">
+  <th colspan="2">Class Variable Details</th></tr>
+</table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="ATTRIBUTE_NODE"></a>
+<h3>ATTRIBUTE_NODE</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>int</code>
+
+      </dd>
+<span title="2">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="COMMENT_NODE"></a>
+<h3>COMMENT_NODE</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>int</code>
+
+      </dd>
+<span title="8">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="DOCUMENT_NODE"></a>
+<h3>DOCUMENT_NODE</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>int</code>
+
+      </dd>
+<span title="9">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="DOCUMENT_TYPE_NODE"></a>
+<h3>DOCUMENT_TYPE_NODE</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>int</code>
+
+      </dd>
+<span title="10">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="ELEMENT_NODE"></a>
+<h3>ELEMENT_NODE</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>int</code>
+
+      </dd>
+<span title="1">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="entities"></a>
+<h3>entities</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>dict</code>
+
+      </dd>
+<span title="{}">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+{}                                                                     </pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="ENTITY_NODE"></a>
+<h3>ENTITY_NODE</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>int</code>
+
+      </dd>
+<span title="6">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="ENTITY_REFERENCE_NODE"></a>
+<h3>ENTITY_REFERENCE_NODE</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>int</code>
+
+      </dd>
+<span title="5">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="NOTATION_NODE"></a>
+<h3>NOTATION_NODE</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>int</code>
+
+      </dd>
+<span title="12">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="notations"></a>
+<h3>notations</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>dict</code>
+
+      </dd>
+<span title="{}">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+{}                                                                     </pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="PROCESSING_INSTRUCTION_NODE"></a>
+<h3>PROCESSING_INSTRUCTION_NODE</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>int</code>
+
+      </dd>
+<span title="7">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<table width="100%" class="var-details" bgcolor="#e0e0e0"><tr><td>
+<a name="TEXT_NODE"></a>
+<h3>TEXT_NODE</h3>
+<dl>
+  <dt></dt>
+  <dd>
+    <dl>
+      <dt><b>Type:</b></dt>
+      <dd>
+          <code>int</code>
+
+      </dd>
+<span title="3">      <dt><b>Value:</b></dt>
+      <dd><table><tr><td>
+<pre class="variable">
+3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</pre>
+        </td></tr></table></dd>
+</span>    </dl>
+  </dd>
+</dl></td></tr></table>
+<br />
+
+
+<!-- =========== START OF NAVBAR =========== -->
+<table class="navbar" border="0" width="100%" cellpadding="0" bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="center">
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="libxml2dom-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="trees.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="indices.html">Index</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar">&nbsp;&nbsp;&nbsp;<a class="navbar" href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+    <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="left"><font size="-2">Generated by Epydoc 2.1 on Tue Sep 18 23:37:02 2007</font></td>
+    <td align="right"><a href="http://epydoc.sourceforge.net"
+                      ><font size="-2">http://epydoc.sf.net</font></a></td>
+  </tr>
+</table>
+</body>
+</html>

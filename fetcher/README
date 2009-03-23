@@ -1,0 +1,18 @@
+Obecnie skrypt potrafi polaczyc sie z wazniakiem i wyswietlic na stdout proste
+statystyki dotyczace wykladow. Przykladowy wynik znajduje sie w pliku RESULTS.
+Trzeba poprawic jeszcze jakis wyklad, ktory sie dobrze nie pobiera i to
+wlasciwie tyle.
+
+Uwaga: skrypt tworzy (dosc duzy, z 85MB) katalog cache_data, w ktorym
+zapisywane sa pobrane strony tak, aby przy nastepnym uruchomieniu nie trzeba
+bylo ich pobierac. Dlatego pierwsze uruchomienie jeste znaaacznie wolniejsze.
+
+./main.py | tee RESULTS
+
+Aby wykorzystac funkcjonalnosc w innym programie, trzeba odpalic
+build_courses(). Zwraca ona liste przedmiotow. Przedmiot jest zdefiniowany tak
+jak w pliku models.py.
+
+ZALEZNOSCI. Skrypty wymagaja co najmniej dwoch bibliotek. Dla wygody umiescilem
+je w podkatalogu zaleznosci. Jesli cos nie dziala domyslnie, mozna sprobowac
+ich instalacji (np ./setup.py install --user)
